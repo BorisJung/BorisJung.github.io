@@ -7,7 +7,7 @@ title: Welcome
 
 # Repair of a Hameg HM7044 Power Supply
 
-I was lucky enough to get a Hameg HM7044 practically for free. It got sorted out, because the current meter display is supposedly defect.
+I was lucky enough to get a Hameg HM7044 384W Power Supply practically for free. It got sorted out, because the current meter display is supposedly defect.
 
 This page and repository documents the steps in the repair process.
 
@@ -17,7 +17,7 @@ The Current meter does only show 0s on every channel in normal state.
 
 Basic tests on all outputs suggested other functionality is still in order. For setting the current limit as well as when current limit is reached, the value is correctly displayed in the current meter. 
 
-In another test remote functionality was confirmed succesfully.
+In another test remote functionality via RS-232 was confirmed succesfully.
 
 
 - current meter only reads 0s in normal use state
