@@ -110,7 +110,20 @@ header {
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+/* START - neue Klasse für Seiten Menü*/
 
+ul.seitenmenue {
+  list-style:none;
+  height:80px;
+  padding:0;
+  background: #f4f4f4;
+  border-radius:15px;
+  border:1px solid #e0e0e0;
+  width:470px;
+}
+
+
+/* ENDE - neue Klasse für Seiten Menü*/
 ul.downloads {
   list-style:none;
   height:40px;
@@ -259,7 +272,7 @@ footer {
   }
 
   .downloads li, .downloads li + li + li {
-    width:99%;
+    width:33%;
   }
 }
 
