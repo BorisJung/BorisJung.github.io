@@ -2,7 +2,7 @@
 layout: default
 title: Welcome
 ---
-### (still under construction 21-06-2020)
+### (still under construction)
 # Welcome!
 
 This site serves as a hub for the documentation and versioning of various projects which I am currently or have been pursuing. Feel free to browse!
