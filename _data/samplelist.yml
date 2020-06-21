@@ -1,8 +1,20 @@
-docs_list_title: ACME Documentation
+docs_list_title: Contents
 docs:
 
-- title: Introduction
-  url: introduction.html
+- title: Welcome
+  url: #
+
+- title: Configuration
+  url: configuration.html
+
+- title: Deployment
+  url: deployment.html
+
+- title: Google
+  url: www.google.de
+
+- title: AD
+  url: http://www.analogdevices.com
 
 - title: Configuration
   url: configuration.html
