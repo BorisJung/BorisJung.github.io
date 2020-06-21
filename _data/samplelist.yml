@@ -2,7 +2,7 @@ docs_list_title: Contents
 docs:
 
 - title: Welcome
-  url: index.html
+  url: http://borisjung.github.io
 
 - title: Image Source Modelling
   url: https://borisjung.github.io/ISM_BRIR_Demo/
