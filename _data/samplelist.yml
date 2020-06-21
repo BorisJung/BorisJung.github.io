@@ -21,3 +21,9 @@ docs:
 
 - title: Deployment
   url: deployment.html
+
+- title: Configuration
+  url: configuration.html
+
+- title: Deployment
+  url: deployment.html
