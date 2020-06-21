@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FrontMatter Title
+title: Welcome
 sidebar: toc
 ---
 
