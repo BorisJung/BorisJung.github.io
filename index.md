@@ -1,1 +1,4 @@
-# Test for Markdown Homepage
+# Welcome!
+
+For now, this serves as a hub for the documentation and versioning of various projects I am/have been pursuing. Feel free to browse!
+
