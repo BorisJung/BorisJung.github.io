@@ -4,6 +4,9 @@ docs:
 - title: Welcome
   url: http://borisjung.github.io
 
+- title: HM7044 Repair
+  url: configuration.html
+
 - title: Image Source Modelling
   url: https://borisjung.github.io/ISM_BRIR_Demo/
 
@@ -22,13 +25,10 @@ docs:
 - title: LTSpice Simulations
   url: https://github.com/BorisJung/LTSpice
 
-- title: Configuration
-  url: configuration.html
-
-- title: Deployment
+- title: Class G Modulator Reverse Engineering
   url: deployment.html
 
-- title: Configuration
+- title: Channelstrip
   url: configuration.html
 
 - title: Deployment
