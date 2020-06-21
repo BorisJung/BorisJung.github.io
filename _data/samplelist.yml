@@ -4,11 +4,11 @@ docs:
 - title: Welcome
   url: http://borisjung.github.io
 
-- title: Configuration
-  url: configuration.html
+- title: Image Source Modelling
+  url: https://borisjung.github.io/ISM_BRIR_Demo/
 
-- title: Deployment
-  url: deployment.html
+- title: BA's Thesis: Audio DAC Phase Noise Measurement System
+  url: https://github.com/BorisJung/BachelorsThesisPhaseNoiseMeasurement
 
 - title: Google
   url: http://www.google.de
