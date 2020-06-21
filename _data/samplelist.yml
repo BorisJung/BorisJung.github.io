@@ -5,7 +5,7 @@ docs:
   url: http://borisjung.github.io
 
 - title: HM7044 Repair
-  url: configuration.html
+  url: HM7044_repair.html
 
 - title: Image Source Modelling
   url: https://borisjung.github.io/ISM_BRIR_Demo/
