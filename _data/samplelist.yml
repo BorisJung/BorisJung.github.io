@@ -11,10 +11,10 @@ docs:
   url: deployment.html
 
 - title: Google
-  url: www.google.de
+  url: http://www.google.de
 
 - title: AD
-  url: http://www.analogdevices.com
+  url: http://www.analog.com
 
 - title: Configuration
   url: configuration.html
