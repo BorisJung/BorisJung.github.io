@@ -10,14 +10,14 @@ docs:
 - title: Image Source Modelling
   url: /ism_brir.html
 
+- title: Low Jitter Hard Limiter Design Tool
+  url: https://github.com/BorisJung/Low_Jitter_Hard_Limiter_Design_Tool
+
 - title: Phase Noise Measurement System for Audio DACs
   url: https://github.com/BorisJung/BachelorsThesisPhaseNoiseMeasurement
 
 - title: Series/Parallel Resistance Calculator
   url: https://github.com/BorisJung/SeriesParallelCombinationCalculator
-
-- title: Low Jitter Hard Limiter Design Tool
-  url: https://github.com/BorisJung/Low_Jitter_Hard_Limiter_Design_Tool
 
 - title: Layouts and PCBs
   url: pcbs.html
@@ -31,7 +31,7 @@ docs:
 - title: Channelstrip
   url: configuration.html
 
-- title: Deployment
+- title: Homebridge Pi
   url: deployment.html
 
 - title: Deployment
