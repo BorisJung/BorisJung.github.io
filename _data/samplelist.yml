@@ -8,7 +8,7 @@ docs:
   url: /HM7044_repair.html
 
 - title: Image Source Modelling
-  url: https://borisjung.github.io/ISM_BRIR_Demo/
+  url: /ism_brir.html
 
 - title: Phase Noise Measurement System for Audio DACs
   url: https://github.com/BorisJung/BachelorsThesisPhaseNoiseMeasurement
