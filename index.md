@@ -4,7 +4,7 @@ title: Welcome
 sidebar: toc
 ---
 ### (still under construction 21-06-2020)
-# Welcome! 123
+# Welcome!
 
 {{ page.url }}
 
