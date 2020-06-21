@@ -2,7 +2,7 @@ docs_list_title: Contents
 docs:
 
 - title: Welcome
-  url: #
+  url: http://borisjung.github.io
 
 - title: Configuration
   url: configuration.html
