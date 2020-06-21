@@ -153,6 +153,16 @@ ul.seitenmenue {
   font-weight:bold;
 }
 
+.seitenmenue ul a:active {
+  background-color:#f0f0f0;
+}
+
+.seitenmenue a strong {
+  font-size:14px;
+  display:block;
+  color:#222;
+}
+
 
 /* ENDE - neue Klasse für Seiten Menü*/
 ul.downloads {
