@@ -52,6 +52,12 @@
           <li><a href="#" class="list-group-item list-group-item-action">Dapibus ac facili789sis in</a></li>
         </ul>
         
+        <!-- inhaltsverzeichnis test-->
+        <ul>
+            {% for item in site.data.samplelist[page.sidebar] %}
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+        </ul>
         
         
         
