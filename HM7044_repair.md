@@ -1,3 +1,7 @@
+---
+layout: default
+title: Welcome
+---
 # Repair of a Hameg HM7044 Power Supply
 
 ## Error description

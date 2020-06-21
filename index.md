@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Welcome
-sidebar: toc
 ---
 ### (still under construction 21-06-2020)
 # Welcome!
