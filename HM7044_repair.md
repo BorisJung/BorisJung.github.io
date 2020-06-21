@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome
+title: HM7044 Repair
 ---
 
 ![fronPanel](./pics/hm7044.jpg)
