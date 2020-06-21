@@ -7,11 +7,11 @@ docs:
 - title: Image Source Modelling
   url: https://borisjung.github.io/ISM_BRIR_Demo/
 
-- title: BA's Thesis Audio DAC Phase Noise Measurement System
+- title: Phase Noise Measurement System for Audio DACs
   url: https://github.com/BorisJung/BachelorsThesisPhaseNoiseMeasurement
 
-- title: Google
-  url: http://www.google.de
+- title: Series/Parallel Resistance Calculator
+  url: https://github.com/BorisJung/SeriesParallelCombinationCalculator
 
 - title: AD
   url: http://www.analog.com
