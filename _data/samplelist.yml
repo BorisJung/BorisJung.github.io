@@ -19,8 +19,8 @@ docs:
 - title: Layouts and PCBs
   url: pcbs.html
 
-- title: Deployment
-  url: deployment.html
+- title: LTSpice Simulations
+  url: https://github.com/BorisJung/LTSpice
 
 - title: Configuration
   url: configuration.html
