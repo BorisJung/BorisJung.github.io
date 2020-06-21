@@ -130,6 +130,26 @@ ul.seitenmenue {
   height:40px;
 }
 
+.seitenmenue li:first-child a {
+  border-radius:5px 5px 0 0;
+}
+
+.seitenmenue li:last-child a {
+  border-radius:0 0 5px 5px;
+}
+
+.seitenmenue a {
+  line-height:1;
+  font-size:11px;
+  color:#676767;
+  display:block;
+  text-align:center;
+  padding-top:6px;
+  height:34px;
+}
+
+
+
 
 /* ENDE - neue Klasse für Seiten Menü*/
 ul.downloads {
