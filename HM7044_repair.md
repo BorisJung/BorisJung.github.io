@@ -9,7 +9,7 @@ title: Welcome
 
 I was lucky enough to get a Hameg HM7044 384W Power Supply practically for free. It got sorted out, because the current meter display is supposedly defect.
 
-This page and repository documents the steps in the repair process.
+This page and repository serves as documentation for the steps in the repair process.
 
 ## Error diagnostics and description
 
@@ -25,4 +25,4 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 - other functionality seems to be ok
 
 
-## Steps
+## Next Steps
