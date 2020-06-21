@@ -13,11 +13,11 @@ docs:
 - title: Series/Parallel Resistance Calculator
   url: https://github.com/BorisJung/SeriesParallelCombinationCalculator
 
-- title: AD
-  url: http://www.analog.com
+- title: Low Jitter Hard Limiter Design Tool
+  url: https://github.com/BorisJung/Low_Jitter_Hard_Limiter_Design_Tool
 
-- title: Configuration
-  url: configuration.html
+- title: Layouts and PCBs
+  url: pcbs.html
 
 - title: Deployment
   url: deployment.html
