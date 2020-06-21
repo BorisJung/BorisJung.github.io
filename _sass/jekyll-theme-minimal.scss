@@ -148,7 +148,10 @@ ul.seitenmenue {
   height:34px;
 }
 
-
+.seitenmenue a:hover, .seitenmenue a:focus {
+  color:#675C5C;
+  font-weight:bold;
+}
 
 
 /* ENDE - neue Klasse für Seiten Menü*/
