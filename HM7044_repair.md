@@ -25,4 +25,13 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 - other functionality seems to be ok
 
 
+## IC Identification
+
+
+
+
 ## Next Steps
+
+![bottom](https://raw.githubusercontent.com/BorisJung/HM7044/master/Pics/bottom.jpg?token=AO2IDCSIZ7ADHNA343LIIKC66EKPI)
+
+![bottom2](../HM7044/pics/hm7044.jpg)
