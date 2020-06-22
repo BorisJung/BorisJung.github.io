@@ -39,4 +39,4 @@ ___
 
 ___
 
-![bottom2](../../BorisJung/HM7044/master/Pics/bottom.jpg?raw=true)
+![bottom2](../../BorisJung/HM7044/Pics/bottom.jpg?raw=true)
