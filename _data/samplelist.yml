@@ -17,7 +17,7 @@ docs:
   url: https://github.com/BorisJung/BachelorsThesisPhaseNoiseMeasurement
 
 - title: Series/Parallel Resistance Calculator
-  url: https://github.com/BorisJung/SeriesParallelCombinationCalculator
+  url: /SerParCalc.html
 
 - title: Layouts and PCBs
   url: pcbs.html
