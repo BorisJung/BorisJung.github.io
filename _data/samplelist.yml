@@ -11,7 +11,7 @@ docs:
   url: /ism_brir.html
 
 - title: Low Jitter Hard Limiter Design Tool
-  url: https://github.com/BorisJung/Low_Jitter_Hard_Limiter_Design_Tool
+  url: /lowJitterLimiter.html
 
 - title: Phase Noise Measurement System for Audio DACs
   url: https://github.com/BorisJung/BachelorsThesisPhaseNoiseMeasurement
