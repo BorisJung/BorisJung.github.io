@@ -44,5 +44,3 @@ ___
 
 
 ___
-
-![bottom3](https://raw.githubusercontent.com/BorisJung/HM7044/master/Pics/bottom.jpg?raw=true)
