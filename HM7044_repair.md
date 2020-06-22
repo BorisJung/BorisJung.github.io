@@ -28,6 +28,10 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 ## IC Identification
 
 
+- Dual 12-Bit Rail-to-Rail Micropower DAC
+[LTC1446](https://www.analog.com/media/en/technical-documentation/data-sheets/1446fa.pdf)
+
+
 
 
 ## Next Steps
