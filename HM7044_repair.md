@@ -28,14 +28,10 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 ## IC Identification
 
 
-- **LTC1446** Dual 12-Bit Rail-to-Rail Micropower DAC
-
-[datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/1446fa.pdf)
+- **LTC1446** Dual 12-Bit Rail-to-Rail Micropower DAC ([datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/1446fa.pdf)) 
 
 - **MCP3202** 2.7V Dual Channel 12-Bit A/D Converter
-with SPI Serial Interface
-
-[datasheet](https://asset.conrad.com/media10/add/160267/c1/-/en/001083119DS01/datenblatt-1083119-microchip-technology-mcp3202-bisn-datenerfassungs-ic-analog-digital-wandler-adc-extern-soic-8-n.pdf)
+with SPI Serial Interface([datasheet](https://asset.conrad.com/media10/add/160267/c1/-/en/001083119DS01/datenblatt-1083119-microchip-technology-mcp3202-bisn-datenerfassungs-ic-analog-digital-wandler-adc-extern-soic-8-n.pdf))
 
 
 ## Next Steps
