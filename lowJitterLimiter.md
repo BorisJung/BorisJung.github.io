@@ -16,3 +16,6 @@ The script is meant to be used by executing jitter_calc.m in MatLab. It starts w
 
 
 ![inputDlg_pic](https://github.com/BorisJung/Low_Jitter_Hard_Limiter_Design_Tool/blob/master/pics/limiterCalc.png?raw=true)
+
+
+![results](https://github.com/BorisJung/Low_Jitter_Hard_Limiter_Design_Tool/blob/master/pics/limiterCalc_results.png?raw=true)
