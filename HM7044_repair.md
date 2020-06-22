@@ -34,7 +34,7 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 ___
 
-![bottom](https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true)
+![bottom](https://raw.githubusercontent.com/BorisJung/HM7044/master/Pics/bottom.jpg?token=AO2IDCUXY6G62FUMUI3ANFS66ELWU)
 
 
 ___
