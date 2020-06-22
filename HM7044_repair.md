@@ -40,3 +40,9 @@ ___
 ___
 
 ![bottom2](../../BorisJung/HM7044/Pics/bottom.jpg?raw=true)
+
+
+
+___
+
+![bottom3](https://raw.githubusercontent.com/BorisJung/HM7044/master/Pics/bottom.jpg?raw=true)
