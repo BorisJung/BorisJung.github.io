@@ -6,7 +6,7 @@ title: Channel Strip
 
 <a id="forkme_banner" href="https://github.com/BorisJung/channelStrip#Overview">View GitHub Repository</a>
 
-During my bachelor's studies, this channel strip was developed for the "Project Lab" course at HTW Berlin.
+During my bachelor's studies, this channel strip, consisting of switchable mic-pre and 4-band fully parametric EQ, was developed for the "Project Lab" course at HTW Berlin.
 
 Although there are many beginner's mistakes, especially regarding the layout, it was still a great learning project, including concept, simulation, layout, different pcb manufacturing processes, soldering, case design as well as test and measurement of the finished product.  
 
