@@ -26,34 +26,10 @@ docs:
   url: https://github.com/BorisJung/LTSpice
 
 - title: Class G Modulator Reverse Engineering
-  url: deployment.html
+  url: /revEng_ClassG
 
 - title: Channelstrip
   url: /channelStrip.html
 
 - title: Homebridge Pi
-  url: deployment.html
-
-- title: Deployment
-  url: deployment.html
-
-- title: Configuration
-  url: configuration.html
-
-- title: Deployment
-  url: deployment.html
-
-- title: Deployment
-  url: deployment.html
-
-- title: Configuration
-  url: configuration.html
-
-- title: Deployment
-  url: deployment.html
-
-- title: Configuration
-  url: configuration.html
-
-- title: Deployment
-  url: deployment.html
+  url: /homePi
