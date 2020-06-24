@@ -2,6 +2,9 @@
 layout: default
 title: Channel Strip
 ---
+
+```(under construction)```
+
 # Channel Strip
 
 <a id="forkme_banner" href="https://github.com/BorisJung/channelStrip#Overview">View GitHub Repository</a>
