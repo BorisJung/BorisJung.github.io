@@ -14,7 +14,7 @@ docs:
   url: /lowJitterLimiter.html
 
 - title: Phase Noise Measurement System for Audio DACs
-  url: /PN_meas.html
+  url: /PNmeas.html
 
 - title: Series/Parallel Resistance Calculator
   url: /SerParCalc.html
