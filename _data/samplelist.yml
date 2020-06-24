@@ -20,7 +20,7 @@ docs:
   url: /SerParCalc.html
 
 - title: Layouts and PCBs
-  url: pcbs.html
+  url: /pcbs.html
 
 - title: LTSpice Simulations
   url: https://github.com/BorisJung/LTSpice
