@@ -3,7 +3,10 @@ layout: default
 title: Channel Strip
 ---
 
-```(under construction)```
+
+```
+(under construction)
+```
 
 # Channel Strip
 

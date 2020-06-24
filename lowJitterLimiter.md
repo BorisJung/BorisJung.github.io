@@ -3,7 +3,10 @@ layout: default
 title: BRIR from ISM
 ---
 
-```(under construction)```
+
+```
+(under construction)
+```
 
 # Low Jitter Hard Limiter Design Tool
 

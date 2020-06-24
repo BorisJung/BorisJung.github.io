@@ -3,7 +3,10 @@ layout: default
 title: HomePi
 ---
 
-```(under construction)```
+
+```
+(under construction)
+```
 
 # HomePi
 

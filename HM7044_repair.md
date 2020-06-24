@@ -3,7 +3,10 @@ layout: default
 title: HM7044 Repair
 ---
 
-```(under construction)```
+
+```
+(under construction)
+```
 
 
 ![fronPanel](./pics/hm7044.jpg)

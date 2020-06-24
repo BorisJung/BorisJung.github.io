@@ -3,7 +3,10 @@ layout: default
 title: Series Parallel Combination Calculator
 ---
 
-```(under construction)```
+
+```
+(under construction)
+```
 
 # Series Parallel Combination Calculator
 
