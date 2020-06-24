@@ -23,7 +23,7 @@ docs:
   url: /pcbs.html
 
 - title: LTSpice Simulations
-  url: https://github.com/BorisJung/LTSpice
+  url: /LTSpice.html
 
 - title: Class G Modulator Reverse Engineering
   url: /revEng_ClassG.html
