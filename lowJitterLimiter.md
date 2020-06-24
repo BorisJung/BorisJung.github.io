@@ -6,7 +6,7 @@ title: BRIR from ISM
 
 <a id="forkme_banner" href="https://github.com/BorisJung/Low_Jitter_Hard_Limiter_Design_Tool#low-jitter-hard-limiter-design-tool">View GitHub Repository</a>
 
-This tool was developed while designing the hard limiter input stage for the phase noise measurement system during the work on my Bachelor's Thesis.
+This MatLab tool was developed while designing the hard limiter input stage for the phase noise measurement system during the work on my Bachelor's Thesis.
 
 It makes use of the design guide for low jitter hard limiters by Oliver M. Collins published in the following IEEE paper:
 
