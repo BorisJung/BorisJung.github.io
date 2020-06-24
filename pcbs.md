@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Welcome
+title: PCBs
 ---
-### (site under construction)
-# Welcome!
 
-This site serves as a hub for the documentation and versioning of various projects which I am currently or have been pursuing. Feel free to browse!
+# Printed Circuit Boards
 
+```under construction```
