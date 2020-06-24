@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Series Parallel Combination Calculator
+title: LTSpice Simulations
 ---
 
 
