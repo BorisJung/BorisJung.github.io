@@ -29,7 +29,7 @@ docs:
   url: deployment.html
 
 - title: Channelstrip
-  url: configuration.html
+  url: /channelStrip.html
 
 - title: Homebridge Pi
   url: deployment.html
