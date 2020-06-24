@@ -15,7 +15,7 @@ This page and repository serves as documentation for the steps in the repair pro
 
 The Current meter does only show 0s on every channel in normal state.
 
-Basic tests on all outputs suggested other functionality is still in order. For setting the current limit as well as when current limit is reached, the value is correctly displayed in the current meter. 
+Basic tests on all outputs suggested other functionality is still in order. For setting the current limit as well as when current limit is reached, values are correctly displayed in the current meter. 
 
 In another test remote functionality via RS-232 was confirmed succesfully.
 
