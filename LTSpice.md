@@ -28,10 +28,10 @@ For my master's thesis I was working on a Spice-Model for the Angelov Model to b
 [First original Paper](https://ieeexplore.ieee.org/document/179888)
 
 
-<figure>
+/*<figure>
     <img src="https://github.com/BorisJung/LTSpice/blob/master/AngelovModel/SCHEMATIC___Angelov_Model_Equivalent_Circuit.jpg?raw=true" align="left" width="325"/>
     <figcaption>Caption goes here</figcaption>
-</figure>
+</figure>*/
 
 - Class D Audio Amplifier
 
