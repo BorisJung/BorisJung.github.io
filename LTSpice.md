@@ -21,7 +21,7 @@ This repository presents some samples of SPICE-simulations I have worked on.
 For my master's thesis I was working on a Spice-Model for the Angelov Model to be able to do time-domain simulations of an RF Power GaN HEMT in LTSpice. The extracted parameters had been used and verified in various ADS Simulations and were saved in the [.mdif-File format](http://literature.cdn.keysight.com/litweb/pdf/ads2005a/cktsim/ck0418.html). 
 
 
-<img src="https://github.com/BorisJung/LTSpice/blob/master/AngelovModel/SCHEMATIC___Angelov_Model_Equivalent_Circuit.jpg?raw=true" align="left" width="325"/>
+<img src="https://github.com/BorisJung/LTSpice/blob/master/AngelovModel/SCHEMATIC___Angelov_Model_Equivalent_Circuit.jpg?raw=true" align="left" />
 
 The image above shows the equivalent circuit for the angelov model modeled in LTSpice. Below are some DC curves extracted from the LTSpice simulation. The results for different .mdif-Files/transistors have been compared to the Keysight ADS DC-simulations and showed close match.
 
