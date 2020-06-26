@@ -23,6 +23,9 @@ For my master's thesis I was working on a Spice-Model for the Angelov Model to b
 
 <img src="https://github.com/BorisJung/LTSpice/blob/master/AngelovModel/SCHEMATIC___Angelov_Model_Equivalent_Circuit.jpg?raw=true" align="left" width="325"/>
 
+The image above shows the equivalent circuit for the angelov model modeled in LTSpice. Below are some DC curves extracted from the LTSpice simulation. The results for different .mdif-Files/transistors have been compared to the Keysight ADS DC-simulations and showed close match.
+
+
 [Keysight ADS Angelov_Model Documentation](https://edadocs.software.keysight.com/pages/viewpage.action?pageId=6063274)
 
 [First original Paper](https://ieeexplore.ieee.org/document/179888)
