@@ -3,6 +3,8 @@ layout: default
 title: Channel Strip
 ---
 
+![front](https://github.com/BorisJung/channelStrip/blob/master/pics/front.jpg?raw=true)
+
 
 ```
 (under construction)
