@@ -3,7 +3,7 @@ layout: default
 title: Welcome
 ---
  ```
-(site under construction - 25.06.2020)
+ (site under construction - 12.07.2020)
 ```
 
 # Welcome!
@@ -15,5 +15,7 @@ ___
 
 ### Construction log
 
+```
 Update 12-07-2020:
 - Digital Potentiometer Evaluation page added
+```
