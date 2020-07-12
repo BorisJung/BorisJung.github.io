@@ -12,8 +12,8 @@ title: Digital Potentiometer Evaluation
 <img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/digiPots.jpg"/>
 
 <figure>
-<img src="https://github.com/BorisJung/digiPots/blob/master/pics/MCP4141.jpeg?raw=true" alt="my alt text" width="100" align="right"/>
-  <figcaption>This is my caption text.</figcaption>
+    <img src="https://github.com/BorisJung/digiPots/blob/master/pics/MCP4141.jpeg?raw=true" alt="my alt text" width="100" align="right"/>
+    <figcaption>This is my caption text.</figcaption>
 </figure>
 
 
