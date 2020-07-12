@@ -29,7 +29,7 @@ This would save me the 10V supply, physical space as well as unnecessarily waste
 The first steps were taken with 2 different cheap general purpose digital potentiometers mounted on [multi-package breakout-boards](https://www.digikey.de/product-detail/en/adafruit-industries-llc/1212/1528-1071-ND/5022800) as depicted in Figure 1.
 
 <figure>
-<img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/1212-04.jpg" alt="my alt text" height="160" /><br>
+<img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/1212-04.jpg" alt="my alt text" /><br>
 <figcaption style="text-align:left">Fig. 1: Adafruit breakout board for MSOP8/TSSOP8 and SOIC8 packages</figcaption>
 </figure>
 
@@ -39,3 +39,45 @@ The two potentiometers currently under evaluation are:
 - Microchip MCP4141 ([Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/22059b.pdf))
 
 Both have a nominal value of 100kΩ and can be controlled via [SPI interface](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface). In the final LED-dimming application mentioned above, the will be controlled by a raspberry pi zero w. For developing purposes however, an [Adafruit FT232H Breakout Board](https://www.adafruit.com/product/2264), which allows communication between USB hosts and various interfaces (SPI, I2C, UART), was used. 
+
+First tests with the TPL0501 using the following simple script were succesful.
+
+```
+import time
+
+from board import *
+import busio
+import digitalio
+
+from adafruit_bus_device.spi_device import SPIDevice
+
+with busio.SPI(SCK, MOSI, MISO) as spi_bus:
+    cs = digitalio.DigitalInOut(D4)
+    device = SPIDevice(spi_bus, cs)
+
+    # temp. helper variables
+    ba_full = bytearray([255])
+    ba_zero = bytearray([0])
+    print(ba_zero)
+    print(ba_full)
+
+    # Write Transaction
+    with device as spi:
+        print('switch to zero')
+        cs.value=False
+        spi.write(bytearray(1))
+        cs.value = True
+        time.sleep(1)
+        print('switch to max resistance')
+        cs.value = False
+        spi.write(ba_full)
+        cs.value = True
+```
+
+### Next steps
+
+- writing a simple python driver for the TPL0501 to easily implement in python scripts
+- testing MCP4141 with simple script
+- writing a driver for MCP4141
+- selecting, ordering and evaluating multichannel general purpose digital potentiometers
+- selecting, ordering and evaluating precision digital potentiometers
