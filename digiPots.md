@@ -33,6 +33,11 @@ The first steps were taken with 2 different cheap general purpose digital potent
 <figcaption>Fig. 1: Adafruit breakout board for MSOP8/TSSOP8 and SOIC8 packages</figcaption>
 </figure>
 
+<figure>
+<img src="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" alt="my alt text" width="200" align="center"/>
+<figcaption>Fig. 1: Adafruit breakout board for MSOP8/TSSOP8 and SOIC8 packages</figcaption>
+</figure>
+
 The two potentiometers currently under evaluation are: 
 
 - Texas Instruments [TPL0501](https://www.ti.com/lit/ds/symlink/tpl0501-100.pdf?ts=1594580841545)
