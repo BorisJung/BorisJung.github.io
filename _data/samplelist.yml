@@ -3,6 +3,9 @@ docs:
 
 - title: Welcome
   url: /
+  
+- title: Digital Potentiometer Evaluation
+  url: /digiPots.html
 
 - title: HM7044 Repair
   url: /HM7044_repair.html
