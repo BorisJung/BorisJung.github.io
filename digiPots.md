@@ -39,7 +39,7 @@ The two potentiometers currently under evaluation are:
 - Texas Instruments TPL0501 ([Datasheet](https://www.ti.com/lit/ds/symlink/tpl0501-100.pdf?ts=1594580841545))
 - Microchip MCP4141 ([Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/22059b.pdf))
 
-Both have a nominal value of 100kΩ and can be controlled via [SPI interface](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface). The MCP4141 comes in a MSOP8 package, so it was easily mounted. Since a SOT23-8 wasn't easily available, I mounted the TPL0501 on the MSOP8 breakout board as well, which was feasible for evaluation purposes, should not be attempted for the final application, due to additional mechanic stresses of the solder joints.
+Both have a nominal value of 100kΩ and can be controlled via [SPI interface](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface). The MCP4141 comes in a MSOP8 package, but since a SOT23-8 wasn't easily available, I mounted the TPL0501 on a MSOP8 breakout board as well, which was feasible for evaluation purposes, should not be attempted for the final application, due to additional mechanic stresses of the solder joints.
 
 <div>
 <p>
