@@ -40,7 +40,7 @@ The two potentiometers currently under evaluation are:
 
 Both have a nominal value of 100kΩ and can be controlled via [SPI interface](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface). In the final LED-dimming application mentioned above, the will be controlled by a raspberry pi zero w. For developing purposes however, an [Adafruit FT232H Breakout Board](https://www.adafruit.com/product/2264), which allows communication between USB hosts and various interfaces (SPI, I2C, UART), was used. 
 
-First tests with the TPL0501 using the following simple script were succesful.
+First tests with the TPL0501 using the following simple python script were succesful.
 
 ```
 import time
