@@ -39,7 +39,17 @@ The two potentiometers currently under evaluation are:
 - Texas Instruments TPL0501 ([Datasheet](https://www.ti.com/lit/ds/symlink/tpl0501-100.pdf?ts=1594580841545))
 - Microchip MCP4141 ([Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/22059b.pdf))
 
-Both have a nominal value of 100kΩ and can be controlled via [SPI interface](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface). In the final LED-dimming application mentioned above, the will be controlled by a raspberry pi zero w. For developing purposes however, an [Adafruit FT232H Breakout Board](https://www.adafruit.com/product/2264), which allows communication between USB hosts and various interfaces (SPI, I2C, UART), was used. 
+Both have a nominal value of 100kΩ and can be controlled via [SPI interface](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface). The MCP4141 comes in a MSOP8 package, so it was easily mounted. Since a SOT23-8 wasn't easily available, I mounted the TPL0501 on the MSOP8 breakout board as well, which was feasible for evaluation purposes, should not be attempted for the final application, due to additional mechanic stresses of the solder joints.
+
+<figure>
+<a href="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/MCP4141.jpg">
+<img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/MCP4141.jpg" alt="my alt text" /></a><br>
+<figcaption style="text-align:left">Fig. 2: MCP4141 mounted on the breakout board</figcaption>
+</figure>
+
+
+
+In the final LED-dimming application mentioned above, the will be controlled by a raspberry pi zero w. For developing purposes however, an [Adafruit FT232H Breakout Board](https://www.adafruit.com/product/2264), which allows communication between USB hosts and various interfaces (SPI, I2C, UART), was used. 
 
 
 ### First test script
