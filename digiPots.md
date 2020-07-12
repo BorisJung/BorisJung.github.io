@@ -29,7 +29,7 @@ This would save me the 10V supply, physical space as well as unnecessarily waste
 The first steps were taken with 2 different cheap general purpose digital potentiometers mounted on [multi-package breakout-boards](https://www.digikey.de/product-detail/en/adafruit-industries-llc/1212/1528-1071-ND/5022800).
 
 <figure>
-<img class="cropimg" src="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" alt="my alt text" width="200" height="200"/>
+<img src="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" alt="my alt text" width="200" height="200"/>
 <figcaption>Fig. 1: Adafruit breakout board for MSOP8/TSSOP8 and SOIC8 packages</figcaption>
 </figure>
 
