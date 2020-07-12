@@ -44,6 +44,8 @@ Both have a nominal value of 100kΩ and can be controlled via [SPI interface](ht
 <figure>
 <a href="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/MCP4141.jpeg" target="_blank">
 <img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/MCP4141.jpeg" alt="my alt text" /></a><br>
+<a href="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/TPL0501.jpeg">
+<img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/TPL0501.jpeg" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Fig. 2: MCP4141 mounted on the breakout board</figcaption>
 </figure>
 
