@@ -28,7 +28,10 @@ The first steps were taken with 2 different cheap general purpose digital potent
 
 {% include image.html url="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" width="250" align="right" description="Adafruit breakout board" %}
 
+The two potentiometers currently under evaluation are: 
 
+- Texas Instruments TPL0501
+- Microchip MCP4141
 
 
 
