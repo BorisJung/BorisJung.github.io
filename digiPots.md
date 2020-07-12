@@ -22,9 +22,12 @@ The first practical application will be using a digital potentiometer to replace
 This would save me the 10V supply, physical space as well as unnecessarily wasted energy (although admittedly not very much).
 
 
+### First eval boards
+
+The first steps were taken with some [multi-package breakout-boards](https://www.digikey.de/product-detail/en/adafruit-industries-llc/1212/1528-1071-ND/5022800) and 2 different cheap general purpose digital potentiometers.
 
 
-
+<img src="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" align=right width=250/>
 
 
 This script was developed as part of a portfolio exam during my master's studies at TU Berlin. It requires the Auditory Modeling Toolbox, the Large Time-Frequency Analysis Toolbox as well as the SOFA MatLab API included in the corresponding subfolder.
