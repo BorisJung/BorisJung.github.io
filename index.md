@@ -18,3 +18,4 @@ ___
 
 Update 12-07-2020:
 - Digital Potentiometer Evaluation page added
+- Image class with figure captions added
