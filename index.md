@@ -13,7 +13,7 @@ This site serves as a hub for the documentation and versioning of some of the pr
 
 ___
 
-### Construction log
+### Change log
 
 
 Update 12-07-2020:
