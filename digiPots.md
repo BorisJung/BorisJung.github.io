@@ -30,8 +30,8 @@ The first steps were taken with 2 different cheap general purpose digital potent
 
 The two potentiometers currently under evaluation are: 
 
-- Texas Instruments TPL0501
-- Microchip MCP4141
+- Texas Instruments [TPL0501](https://www.ti.com/lit/ds/symlink/tpl0501-100.pdf?ts=1594580841545)
+- Microchip [MCP4141](http://ww1.microchip.com/downloads/en/DeviceDoc/22059b.pdf)
 
 
 
