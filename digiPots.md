@@ -24,8 +24,8 @@ title: Digital Potentiometer Evaluation
 
 Since I've encountered and actually have debugged circuits that used digital potentiometers but never really used them in a design myself, I wanted to start a simple evaluation of cheap general purpose models, which shall be logged here. 
 
-<figure align="left">
-<img src="https://github.com/BorisJung/digiPots/blob/master/pics/MCP4141.jpeg?raw=true" alt="my alt text" width="100" />
+<figure>
+<img src="https://github.com/BorisJung/digiPots/blob/master/pics/MCP4141.jpeg?raw=true" alt="my alt text" width="100" style="float:right"/>
 <figcaption>This is my caption text.</figcaption>
 </figure>
 
