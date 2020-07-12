@@ -7,14 +7,9 @@ title: Digital Potentiometer Evaluation
 (under construction)
 ```
 
-{% include image.html url="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/digiPots.jpg" width="60" align="right" description="Adafruit breakout board" %}
+/*{% include image.html url="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/digiPots.jpg" width="60" align="right" description="Adafruit breakout board" %}*/
 
 <img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/digiPots.jpg"/>
-
-<figure align="left">
-<img src="https://github.com/BorisJung/digiPots/blob/master/pics/MCP4141.jpeg?raw=true" alt="my alt text" width="200" />
-<figcaption>This is my caption text.</figcaption>
-</figure>
 
 
 
@@ -32,8 +27,6 @@ This would save me the 10V supply, physical space as well as unnecessarily waste
 ### First eval boards
 
 The first steps were taken with 2 different cheap general purpose digital potentiometers mounted on [multi-package breakout-boards](https://www.digikey.de/product-detail/en/adafruit-industries-llc/1212/1528-1071-ND/5022800).
-
-{% include image.html url="" width="60" align="right" description="Adafruit breakout board" %}
 
 <figure>
 <img src="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" alt="my alt text" width="100"/>
