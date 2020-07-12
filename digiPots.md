@@ -28,7 +28,7 @@ This would save me the 10V supply, physical space as well as unnecessarily waste
 
 The first steps were taken with some [multi-package breakout-boards](https://www.digikey.de/product-detail/en/adafruit-industries-llc/1212/1528-1071-ND/5022800) and 2 different cheap general purpose digital potentiometers.
 
-<img src="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" align=right width=250/>
+<img src="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" width="250"/>
 
 
 
