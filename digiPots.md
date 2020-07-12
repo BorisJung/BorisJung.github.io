@@ -21,16 +21,12 @@ The first practical application will be using a digital potentiometer to replace
 
 This would save me the 10V supply, physical space as well as unnecessarily wasted energy (although admittedly not very much).
 
-{% include image.html url="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/digiPots.jpg" description="My cat, Robert Downey Jr." %}
-
 
 ### First eval boards
 
 The first steps were taken with some [multi-package breakout-boards](https://www.digikey.de/product-detail/en/adafruit-industries-llc/1212/1528-1071-ND/5022800) and 2 different cheap general purpose digital potentiometers.
 
-<img src="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" width="250"/>
-
-
+{% include image.html url="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" width="250" description="Adafruit breakout board" %}
 
 
 
