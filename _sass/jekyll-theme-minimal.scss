@@ -356,10 +356,10 @@ footer {
 
 
 
-/* START figures and captions*/
+/* START figures and captions
+ display: inline-block;*/
 figure {
     float: right;
-    display: inline-block;
     border: 0px dotted gray;
     margin: 20px;
     align: center
