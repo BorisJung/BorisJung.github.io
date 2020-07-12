@@ -361,8 +361,15 @@ footer {
     display: inline-block;
  */
 figure {
-    border: 0px dotted gray;
-    margin: 20px
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: 3px silver solid; // thin als größenangabe möglich
+    margin: 0.5em;
+    padding: 0.5em;
 }
 
 figure img {
