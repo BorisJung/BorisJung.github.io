@@ -7,7 +7,7 @@ title: Digital Potentiometer Evaluation
 (under construction)
 ```
 
-
+{% include image.html url="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/digiPots.jpg" width="60" align="right" description="Adafruit breakout board" %}
 <img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/digiPots.jpg"/>
 
 
