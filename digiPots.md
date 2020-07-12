@@ -7,6 +7,10 @@ title: Digital Potentiometer Evaluation
 (under construction)
 ```
 
+
+<img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/digiPots.jpg"/>
+
+
 # Evaluation of general purpose digital potentiometers
 
 <a id="forkme_banner" href="https://github.com/BorisJung/digiPots">View GitHub Repository</a>
@@ -16,6 +20,9 @@ Since I've encountered and actually have debugged circuits that used digital pot
 The first practical application will be using a digital potentiometer to replace the 10V-pwm circuitry, which I'm currently using to dim some LED fixtures using a MeanWell powersupply with 3-in-1 dimming function. (see page 4 in datasheets: [HLG-40H-20-B](https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/HLG-40H/HLG-40H-spec.pdf))
 
 This would save me the 10V supply, physical space as well as unnecessarily wasted energy (although admittedly not very much).
+
+
+
 
 
 
