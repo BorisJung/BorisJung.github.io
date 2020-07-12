@@ -359,7 +359,7 @@ footer {
 /* START figures and captions*/
 figure {
     display: inline-block;
-    border: 1px dotted gray;
+    border: 0px dotted gray;
     margin: 20px;
 }
 figure img {
@@ -367,6 +367,6 @@ figure img {
 }
 figure figcaption {
     border: 1px dotted blue;
-    text-align: center;
+    text-align: left;
 }
 /* END OF figures and captions*/
