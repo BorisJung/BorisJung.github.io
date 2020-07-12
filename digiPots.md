@@ -41,11 +41,10 @@ The two potentiometers currently under evaluation are:
 
 Both have a nominal value of 100kΩ and can be controlled via [SPI interface](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface). The MCP4141 comes in a MSOP8 package, so it was easily mounted. Since a SOT23-8 wasn't easily available, I mounted the TPL0501 on the MSOP8 breakout board as well, which was feasible for evaluation purposes, should not be attempted for the final application, due to additional mechanic stresses of the solder joints.
 
+<p>
 <figure>
 <a href="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/MCP4141.jpeg" target="_blank">
 <img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/MCP4141.jpeg" alt="my alt text" /></a><br>
-<a href="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/TPL0501.jpeg">
-<img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/TPL0501.jpeg" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Fig. 2: MCP4141 mounted on the breakout board</figcaption>
 </figure>
 
@@ -54,7 +53,7 @@ Both have a nominal value of 100kΩ and can be controlled via [SPI interface](ht
 <img src="https://raw.githubusercontent.com/BorisJung/digiPots/master/pics/TPL0501.jpeg" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Fig. 3: TPL0501 mounted on the breakout board</figcaption>
 </figure>
-
+</p>
 
 
 In the final LED-dimming application mentioned above, the will be controlled by a raspberry pi zero w. For developing purposes however, an [Adafruit FT232H Breakout Board](https://www.adafruit.com/product/2264), which allows communication between USB hosts and various interfaces (SPI, I2C, UART), was used. 
