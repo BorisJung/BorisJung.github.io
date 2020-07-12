@@ -26,7 +26,6 @@ This would save me the 10V supply, physical space as well as unnecessarily waste
 
 ### First eval boards
 
-<p>
 The first steps were taken with 2 different cheap general purpose digital potentiometers mounted on [multi-package breakout-boards](https://www.digikey.de/product-detail/en/adafruit-industries-llc/1212/1528-1071-ND/5022800).
 
 <figure>
@@ -38,8 +37,6 @@ The two potentiometers currently under evaluation are:
 
 - Texas Instruments [TPL0501](https://www.ti.com/lit/ds/symlink/tpl0501-100.pdf?ts=1594580841545)
 - Microchip [MCP4141](http://ww1.microchip.com/downloads/en/DeviceDoc/22059b.pdf)
-
-</p>
 
 
 This script was developed as part of a portfolio exam during my master's studies at TU Berlin. It requires the Auditory Modeling Toolbox, the Large Time-Frequency Analysis Toolbox as well as the SOFA MatLab API included in the corresponding subfolder.
