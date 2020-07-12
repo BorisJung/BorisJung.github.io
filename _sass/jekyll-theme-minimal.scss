@@ -367,6 +367,14 @@ figure img {
     vertical-align: top;
 }
 
+.cropimg {
+
+position: absolute;
+
+clip: rect(0px,50px,100px,50px);
+
+}
+
 figure figcaption {
     border: 0px dotted blue;
     text-align: left;
