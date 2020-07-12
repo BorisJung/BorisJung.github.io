@@ -25,7 +25,7 @@ This would save me the 10V supply, physical space as well as unnecessarily waste
 
 
 ### First eval boards
-111
+222
 
 The first steps were taken with 2 different cheap general purpose digital potentiometers mounted on [multi-package breakout-boards](https://www.digikey.de/product-detail/en/adafruit-industries-llc/1212/1528-1071-ND/5022800).
 
