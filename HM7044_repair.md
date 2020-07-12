@@ -44,9 +44,9 @@ with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/1602
 
 ___
 
-![top](https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true)
+{% include image.html url="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" description="Top Layer" %}
 
 ___
 
-![top](https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true)
+{% include image.html url="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" description="Bottom Layer" %}
 ___
