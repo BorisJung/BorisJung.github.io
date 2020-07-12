@@ -15,7 +15,6 @@ ___
 
 ### Construction log
 
-```
+
 Update 12-07-2020:
 - Digital Potentiometer Evaluation page added
-```
