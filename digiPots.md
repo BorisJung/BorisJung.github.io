@@ -24,6 +24,11 @@ title: Digital Potentiometer Evaluation
 
 Since I've encountered and actually have debugged circuits that used digital potentiometers but never really used them in a design myself, I wanted to start a simple evaluation of cheap general purpose models, which shall be logged here. 
 
+<figure align="left">
+<img src="https://github.com/BorisJung/digiPots/blob/master/pics/MCP4141.jpeg?raw=true" alt="my alt text" width="100" />
+<figcaption>This is my caption text.</figcaption>
+</figure>
+
 The first practical application will be using a digital potentiometer to replace the 10V-pwm circuitry, which I'm currently using to dim some LED fixtures using a MeanWell powersupply with 3-in-1 dimming function. (see page 4 in datasheets: [HLG-40H-20-B](https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/HLG-40H/HLG-40H-spec.pdf))
 
 This would save me the 10V supply, physical space as well as unnecessarily wasted energy (although admittedly not very much).
