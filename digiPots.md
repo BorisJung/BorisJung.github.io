@@ -24,9 +24,9 @@ This would save me the 10V supply, physical space as well as unnecessarily waste
 
 ### First eval boards
 
-The first steps were taken with some [multi-package breakout-boards](https://www.digikey.de/product-detail/en/adafruit-industries-llc/1212/1528-1071-ND/5022800) and 2 different cheap general purpose digital potentiometers.
+The first steps were taken with 2 different cheap general purpose digital potentiometers mounted on [multi-package breakout-boards](https://www.digikey.de/product-detail/en/adafruit-industries-llc/1212/1528-1071-ND/5022800).
 
-{% include image.html url="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" width="250" description="Adafruit breakout board" %}
+{% include image.html url="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" width="250" align="right" description="Adafruit breakout board" %}
 
 
 
