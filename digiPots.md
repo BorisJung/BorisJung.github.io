@@ -60,7 +60,7 @@ Both have a nominal value of 100kΩ and can be controlled via [SPI interface](ht
 <br>
 
 <div>
-In the final LED-dimming application mentioned above, the will be controlled by a raspberry pi zero w. For developing purposes however, an [Adafruit FT232H Breakout Board](https://www.adafruit.com/product/2264), which allows communication between USB hosts and various interfaces (SPI, I2C, UART), was used. 
+111 In the final LED-dimming application mentioned above, the will be controlled by a raspberry pi zero w. For developing purposes however, an [Adafruit FT232H Breakout Board](https://www.adafruit.com/product/2264), which allows communication between USB hosts and various interfaces (SPI, I2C, UART), was used. 
 </div>
 
 ### First test script
