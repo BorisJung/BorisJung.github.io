@@ -24,11 +24,6 @@ title: Digital Potentiometer Evaluation
 
 Since I've encountered and actually have debugged circuits that used digital potentiometers but never really used them in a design myself, I wanted to start a simple evaluation of cheap general purpose models, which shall be logged here. 
 
-<figure>
-<img src="https://github.com/BorisJung/digiPots/blob/master/pics/MCP4141.jpeg?raw=true" alt="my alt text" width="100" style="float:right"/>
-<figcaption>This is my caption text.</figcaption>
-</figure>
-
 The first practical application will be using a digital potentiometer to replace the 10V-pwm circuitry, which I'm currently using to dim some LED fixtures using a MeanWell powersupply with 3-in-1 dimming function. (see page 4 in datasheets: [HLG-40H-20-B](https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/HLG-40H/HLG-40H-spec.pdf))
 
 This would save me the 10V supply, physical space as well as unnecessarily wasted energy (although admittedly not very much).
@@ -38,7 +33,13 @@ This would save me the 10V supply, physical space as well as unnecessarily waste
 
 The first steps were taken with 2 different cheap general purpose digital potentiometers mounted on [multi-package breakout-boards](https://www.digikey.de/product-detail/en/adafruit-industries-llc/1212/1528-1071-ND/5022800).
 
-{% include image.html url="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" width="60" align="right" description="Adafruit breakout board" %}
+{% include image.html url="" width="60" align="right" description="Adafruit breakout board" %}
+
+<figure>
+<img src="https://media.digikey.com/Photos/Adafruit%20Industries%20LLC/MFG_1212.jpg" alt="my alt text" width="100"/>
+<figcaption>Fig. 1: Adafruit breakout board for MSSOP8 and SOIC8 packages</figcaption>
+</figure>
+
 
 The two potentiometers currently under evaluation are: 
 
