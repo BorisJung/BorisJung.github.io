@@ -21,8 +21,9 @@ Since I've encountered and actually have debugged circuits that used digital pot
 
 The first practical application will be using a digital potentiometer to replace the 10V-pwm circuitry, which I'm currently using to dim some LED fixtures using a MeanWell powersupply with 3-in-1 dimming function. (see page 4 in [HLG-40H-20-B datasheets](https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/HLG-40H/HLG-40H-spec.pdf))
 
-This would save me the 10V supply, physical space as well as unnecessarily wasted energy (although admittedly not very much).
+This would make the currently needed 10V supply obsolete, reduce physical space as well as unnecessarily wasted energy (although admittedly not very much).
 
+___
 
 ### First eval boards
 
@@ -64,6 +65,8 @@ Both have a nominal value of 100kΩ and can be controlled via [SPI interface](ht
 In the final LED-dimming application mentioned above, the will be controlled by a raspberry pi zero w. For developing purposes however, an [Adafruit FT232H Breakout Board](https://www.adafruit.com/product/2264), which allows communication between USB hosts and various interfaces (SPI, I2C, UART), was used. 
 
 
+___
+
 ### First test script
 
 Tests with the TPL0501 using the following simple python script were succesful:
@@ -99,6 +102,11 @@ with busio.SPI(SCK, MOSI, MISO) as spi_bus:
         spi.write(ba_full)
         cs.value = True
 ```
+
+___
+
+
+
 
 ### Next steps
 
