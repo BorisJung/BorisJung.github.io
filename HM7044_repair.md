@@ -39,6 +39,9 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 - **MCP3202** 2.7V Dual Channel 12-Bit A/D Converter
 with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/160267/c1/-/en/001083119DS01/datenblatt-1083119-microchip-technology-mcp3202-bisn-datenerfassungs-ic-analog-digital-wandler-adc-extern-soic-8-n.pdf))
 
+- **MC33172** Low power dual bipolar operational amplifiers ([datasheet](https://www.st.com/resource/en/datasheet/mc33172.pdf))
+
+
 
 ## Next Steps
 
