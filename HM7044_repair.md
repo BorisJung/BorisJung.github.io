@@ -33,6 +33,8 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 ## IC Identification
 
+- **LM317L** 3-Terminal Adjustable Regulator
+([datasheet](https://www.ti.com/lit/ds/symlink/lm317l.pdf?ts=1596796656076&ref_url=https%253A%252F%252Fwww.google.com%252F))
 
 - **LM337LM** 3-Terminal Adjustable Regulator
 ([datasheet](https://www.ti.com/lit/ds/symlink/lm337l.pdf?ts=1596795119863&ref_url=https%253A%252F%252Fwww.google.com%252F))
