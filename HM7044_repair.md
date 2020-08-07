@@ -34,12 +34,19 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 ## IC Identification
 
 
+- **LM337** 3-Terminal Adjustable Regulators
+([datasheet](https://www.ti.com/lit/ds/symlink/lm337.pdf?ts=1596795003446&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM337))
+
+
 - **LTC1446** Dual 12-Bit Rail-to-Rail Micropower DAC ([datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/1446fa.pdf)) 
 
 - **MCP3202** 2.7V Dual Channel 12-Bit A/D Converter
 with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/160267/c1/-/en/001083119DS01/datenblatt-1083119-microchip-technology-mcp3202-bisn-datenerfassungs-ic-analog-digital-wandler-adc-extern-soic-8-n.pdf))
 
 - **MC33172** Low power dual bipolar operational amplifiers ([datasheet](https://www.st.com/resource/en/datasheet/mc33172.pdf))
+
+
+
 
 
 
