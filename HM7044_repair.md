@@ -49,6 +49,10 @@ with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/1602
 
 
 
+- **KW1-391AGA** Single Digit 7-segment LED Display ([datasheet](https://www.luckylight.cn/media/component/data-sheet/KW1-391AGA.pdf))
+
+
+
 
 
 
