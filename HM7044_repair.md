@@ -34,8 +34,8 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 ## IC Identification
 
 
-- **LM337** 3-Terminal Adjustable Regulators
-([datasheet](https://www.ti.com/lit/ds/symlink/lm337.pdf?ts=1596795003446&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM337))
+- **LM337LM** 3-Terminal Adjustable Regulator
+([datasheet](https://www.ti.com/lit/ds/symlink/lm337l.pdf?ts=1596795119863&ref_url=https%253A%252F%252Fwww.google.com%252F))
 
 
 - **LTC1446** Dual 12-Bit Rail-to-Rail Micropower DAC ([datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/1446fa.pdf)) 
