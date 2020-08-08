@@ -51,6 +51,16 @@ with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/1602
 
 - **KW1-391AGA** Single Digit 7-segment LED Display ([datasheet](https://www.luckylight.cn/media/component/data-sheet/KW1-391AGA.pdf))
 
+- **ICM7228** 8-Digit, Microprocessor-Compatible, LED Display Decoder Driver ([datasheet](https://www.renesas.com/cn/en/www/doc/datasheet/icm7228.pdf))
+
+- **HCT4094** 8-stage shift-and-store bus register ([datasheet](https://assets.nexperia.com/documents/data-sheet/74HC_HCT4094.pdf))
+
+
+
+
+
+
+
 
 
 
