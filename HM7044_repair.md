@@ -130,9 +130,12 @@ KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 
 <br>
 
+<div>
 <p>
 <br>
 </p>
+</div>
+
 
 
 ______
