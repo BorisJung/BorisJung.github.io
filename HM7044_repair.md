@@ -67,14 +67,48 @@ with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/1602
 
 
 
+### Notes
+
+** Fault details: **
+- current meter shows 0.0 A during normal state
+- current meter shows current limit value during setup and when in limiting state
+
+-> There must be a switch for switching between saved limit value and momentary sense reading value!
+
+- Must be on CPU board, since LED Digits input signal comes from B2B-connector
+
+data input Serial/Parallel conv <-> Pin 17 front board to cpu board connector <-> Pin 2 4094 shift register & Pin 27 of main asic / CPU
+
+-> CPU sends serial signal to both shift register for optocoupler drive, as well as Serial/Parallel conv for driving meter displays
+
+TLP2630 output pins to Pin 16/18 of B2B connector, pulled high via 10k resistors to VCC (of secondary/supply board side), Pin 8 of B2B Connector
+
+
+___
+Next:
+
+- optocoupler going where exactly? (switch between limit and sensed current value?)
+- optocoupler defect? input/control signal working? (4094?)
+
+
+___
 
 
 
 
+**Display drivers 7228:**
+- Shutdown Pin (10) shorted to VDD -> all drivers always on
+
+
+**Block Diagram**
+- separate Drivers for Current Meter (bottom row LED digits KW1-391AGA) and Voltage Meter (top row LED digits KW1-391AGA)
+
+for current meter:
+
+KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 
 
 
-## Next Steps
 
 ___
 
