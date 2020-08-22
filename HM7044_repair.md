@@ -107,12 +107,15 @@ for current meter:
 
 KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 
+___
 
 <figure>
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Front PCB of HM7044 top side</figcaption>
 </figure>
+
+___
 
 
 <figure>
