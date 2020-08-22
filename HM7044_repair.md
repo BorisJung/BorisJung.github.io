@@ -26,20 +26,16 @@ Basic tests on all outputs suggested other functionality is still in order. For 
 In another test remote functionality via RS-232 was confirmed succesfully.
 
 
-- current meter only reads 0s in normal use state
-- current limit value is displayed correctly
+
+**Fault details:**
+- current meter shows 0.0 A during normal state
+- current meter shows current limit value during setup and when in limiting state
 - other functionality seems to be ok
-
-
-
 
 
 
 ### Notes
 
-**Fault details:**
-- current meter shows 0.0 A during normal state
-- current meter shows current limit value during setup and when in limiting state
 
 -> There must be a switch for switching between saved limit value and momentary sense reading value!
 
