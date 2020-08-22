@@ -131,9 +131,15 @@ KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 <br>
 
 
+
 ___
 
+<br>
+
+
 ### Main PCB
+
+<br>
 
 <div>
 <p>
