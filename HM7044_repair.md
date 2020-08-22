@@ -111,16 +111,15 @@ KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 <figure>
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" alt="my alt text" /></a><br>
-<figcaption style="text-align:left">Fig. 1: Front PCB of HM7044 top side</figcaption>
+<figcaption style="text-align:left">Front PCB of HM7044 top side</figcaption>
 </figure>
 
 
-
-{% include image.html url="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" description="Bottom Layer" align="left" width="325" %}
-
-
-
-{% include image.html url="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" description="Bottom Layer" align="left" width="325" %}
+<figure>
+<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" target="_blank">
+<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" alt="my alt text" /></a><br>
+<figcaption style="text-align:left">Front PCB of HM7044 top side</figcaption>
+</figure>
 
 
 ___
