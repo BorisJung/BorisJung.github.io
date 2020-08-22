@@ -10,6 +10,9 @@ title: PlantPi sensor server
 
 # "PlantPi" sensor server
 
+Screenshot of an older project I have been pursuing, which has been waiting for a revision for quite some while. 
+
+Based on a raspberry pi B+ with several sensors as well as some relays for switching 230V appliances, this web server was monitoring temperature and humidity while correspondingly switching ventilation. Data was saved into an SQL database and displayed on the web-interface with charts.js.
 
 <figure>
 <a href="https://github.com/BorisJung/PlantPi/blob/master/pics/plantpi_proof.png?raw=true" target="_blank">
@@ -17,3 +20,8 @@ title: PlantPi sensor server
 <figcaption style="text-align:left">PlantPi web-interface and script console output</figcaption>
 </figure>
 
+
+Revision shall include:
+- multiple temperature sensors / measurement points
+- other sensors (luminous flux, air pressure, air "quality", soil moisture, pot weight, etc.)
+- updated interactive web-interface with settings page
