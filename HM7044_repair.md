@@ -114,13 +114,13 @@ KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 
 <div>
 <p>
-<figure style="align:left; width:45%">
+<figure style="align:right; width:45%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Front PCB of HM7044 top side</figcaption>
 </figure>
 
-<figure style="align:right; width:45%">
+<figure style="align:left; width:45%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Front PCB of HM7044 bottom side</figcaption><br>
@@ -135,18 +135,16 @@ ___
 
 ### Main PCB  
 
-9876565
-<br>
 
 <div>
 <p>
-<figure style="align:left; width:44%">
+<figure style="align:right; width:44%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Main PCB of HM7044 top side</figcaption>
 </figure>
 
-<figure style="align:right; width:44%">
+<figure style="align:left; width:44%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Main PCB of HM7044 bottom side</figcaption>
