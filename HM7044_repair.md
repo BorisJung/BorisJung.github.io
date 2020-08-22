@@ -115,15 +115,15 @@ ___
 
 ### Front PCB
 
-<div>
+<div style="clear:all">
 <p>
-<figure style="align:right; vertival-align:bottom; clear:all; width:45%">
+<figure style="align:right; vertival-align:top; clear:all; width:45%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Front PCB of HM7044 top side</figcaption>
 </figure>
 
-<figure style="align:left; vertival-align:bottom; width:45%">
+<figure style="align:left; vertival-align:top; width:45%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Front PCB of HM7044 bottom side</figcaption><br>
@@ -132,8 +132,6 @@ ___
 </div>  
 
 
-
-___
 
 
 ### Main PCB  
