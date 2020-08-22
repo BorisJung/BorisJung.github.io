@@ -129,9 +129,22 @@ ___
 
 ___
 
-{% include image.html url="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" description="Top Layer" %}
+
+<figure>
+<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" target="_blank">
+<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" alt="my alt text" /></a><br>
+<figcaption style="text-align:left">Main PCB of HM7044 top side</figcaption>
+</figure>
 
 ___
 
-{% include image.html url="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" description="Bottom Layer" %}
+
+<figure>
+<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" target="_blank">
+<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" alt="my alt text" /></a><br>
+<figcaption style="text-align:left">Main PCB of HM7044 bottom side</figcaption>
+</figure>
+
 ___
+
+
