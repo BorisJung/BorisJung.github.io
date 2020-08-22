@@ -113,6 +113,9 @@ ___
 
 ## Pictures
 
+123
+
+
 ### Front PCB
 
 <div style="clear:all">
@@ -137,7 +140,7 @@ ___
 ### Main PCB  
 
 
-<div>
+<div style="clear:all">
 <p>
 <figure style="align:right; width:44%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" target="_blank">
@@ -158,7 +161,7 @@ ___
 ### TEST  
 
 
-<div>
+<div style="clear:all">
 <p>
 <figure style="align:right; width:44%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" target="_blank">
