@@ -112,9 +112,7 @@ ___
 
 
 ## Pictures
-
-123454321
-abc
+mbncxnxclvkjsdlfgkjasödfojapoewrfpjgoasdlcknslkcnv
 
 ### Front PCB
 
@@ -135,12 +133,9 @@ abc
 </div>  
 
 
-
-<div style="clear:both">
-
 ### Main PCB  
 
-<div>
+
 <div style="clear:both">
 <p>
 <figure style="align:left; vertical-align:bottom; width:44%">
