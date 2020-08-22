@@ -69,7 +69,7 @@ with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/1602
 
 ### Notes
 
-** Fault details: **
+**Fault details:**
 - current meter shows 0.0 A during normal state
 - current meter shows current limit value during setup and when in limiting state
 
