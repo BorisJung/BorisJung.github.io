@@ -130,14 +130,6 @@ KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 
 <br>
 
-
-testtexttesttexttesttexttesttexttesttexttesttexttesttexttesttext
-______
-
-<br>
-
-testtexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttexttesttext
-
 <p>
 </p>
 
