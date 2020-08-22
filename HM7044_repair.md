@@ -113,7 +113,7 @@ ___
 
 ## Pictures
 
-qaywsx
+123454321
 
 
 ### Front PCB
@@ -136,10 +136,11 @@ qaywsx
 
 
 
+<div style="clear:both">
 
 ### Main PCB  
 
-
+<div>
 <div style="clear:both">
 <p>
 <figure style="align:left; vertical-align:bottom; width:44%">
