@@ -112,19 +112,19 @@ ___
 
 
 ## Pictures
-12345
+adslfkajsgölkdslkfj
 
 ### Front PCB
 
 <div style="clear:both">
 <p>
-<figure style="float:left; vertical-align:bottom; width:45%">
+<figure style="float:left; vertical-align:bottom; clear:both; width:45%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Front PCB of HM7044 top side</figcaption>
 </figure>
 
-<figure style="float:right; vertical-align:bottom; width:45%">
+<figure style="float:right; vertical-align:bottom; clear:both; width:45%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Front PCB of HM7044 bottom side</figcaption><br>
