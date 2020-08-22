@@ -114,6 +114,9 @@ KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 
 
 
+{% include image.html url="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" description="Bottom Layer" align="left" width="325" %}
+
+
 ___
 
 {% include image.html url="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" description="Top Layer" %}
