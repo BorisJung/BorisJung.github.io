@@ -130,7 +130,7 @@ ___
 <figcaption style="text-align:left">Front PCB of HM7044 bottom side</figcaption><br>
 </figure>
 </p>
-</div>  
+</div>  <br><br>
 
 
 ### Main PCB  
