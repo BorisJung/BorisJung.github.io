@@ -126,21 +126,16 @@ KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 <figcaption style="text-align:left">Front PCB of HM7044 bottom side</figcaption><br>
 </figure>
 </p>
-</div>  <br><br>  
+</div>  
 
-<div>
- <br><br>
-</div>
-  
+______    
 
-______  
+___  
 
-
-<br><br>  
 
 ### Main PCB  
 
-123
+34567
 <br>
 
 <div>
@@ -160,10 +155,13 @@ ______
 </div>
 
 
+---
+
+___  
+
+
 ### TEST  
 
-123
-<br>
 
 <div>
 <p>
