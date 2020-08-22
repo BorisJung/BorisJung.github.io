@@ -112,7 +112,6 @@ ___
 
 
 ## Pictures
-aaaa45454545454545454554545454
 
 ### Front PCB
 
@@ -130,7 +129,7 @@ aaaa45454545454545454554545454
 <figcaption style="text-align:left">Front PCB of HM7044 bottom side</figcaption><br>
 </figure>
 </p>
-</div>  <br><br>  <br><br>  <br><br>  <br><br>
+</div>
 
 <div style="clear:both">
 </div>
