@@ -142,13 +142,13 @@ ___
 
 <div style="clear:all">
 <p>
-<figure style="align:right; width:44%">
+<figure style="align:left; vertival-align:bottom; width:44%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Main PCB of HM7044 top side</figcaption>
 </figure>
 
-<figure style="align:left; width:44%">
+<figure style="align:right; vertival-align:bottom; width:44%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Main PCB of HM7044 bottom side</figcaption>
