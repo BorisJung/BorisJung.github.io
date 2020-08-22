@@ -34,5 +34,8 @@ docs:
 - title: Channelstrip
   url: /channelStrip.html
 
+- title: PlantPi server
+  url: /PlantPi.html
+
 - title: Homebridge Pi
   url: /homePi.html
