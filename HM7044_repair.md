@@ -112,7 +112,7 @@ ___
 
 
 ## Pictures
-45454545454545454554545454
+aaaa45454545454545454554545454
 
 ### Front PCB
 
@@ -132,6 +132,8 @@ ___
 </p>
 </div>  <br><br>  <br><br>  <br><br>  <br><br>
 
+<div style="clear:both">
+</div>
 
 ### Main PCB  
 
