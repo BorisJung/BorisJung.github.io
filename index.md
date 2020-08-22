@@ -19,6 +19,10 @@ Update 22-08-2020:
 - added PlantPi page
 - added Notes and more ICs (HM7044 repair)
 
+Update 17-08-2020:
+- added more identified ICs (HM7044 repair)
+- added traced connections / measurement point voltages (HM7044 repair)
+
 Update 21-07-2020:
 - added more identified ICs (HM7044 repair)
 - added front pcb pics (HM7044 repair) 
