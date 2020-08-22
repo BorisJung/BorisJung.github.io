@@ -117,7 +117,7 @@ ___
 
 <div>
 <p>
-<figure style="align:right; vertival-align:bottom; width:45%">
+<figure style="align:right; vertival-align:bottom; clear:all; width:45%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Front PCB of HM7044 top side</figcaption>
