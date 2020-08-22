@@ -108,6 +108,9 @@ for current meter:
 KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 
 
+___
+
+
 ## Pictures
 
 ### Front PCB
@@ -128,9 +131,7 @@ KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 </p>
 </div>  
 
-______    
 
-___  
 
 
 ### Main PCB  
@@ -152,10 +153,6 @@ ___
 </p>
 </div>
 
-
----
-
-___  
 
 
 ### TEST  
