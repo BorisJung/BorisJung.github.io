@@ -103,6 +103,12 @@ Origin:
 Supply Board Connector Pin 19   <---  Resistor divider  <--- BC846B darlington stage  <--- 61k9  <---  MCP3202 A/D Pin 6 Data Out 
 
 
+MCP3202 A/D Pin 3 Data In CH1  <---  MC33172(#2) Pin 7 Output 2 
+MC33172(#2) Pins 5/6 (inputs 2)  <--- Divider/Filter  <--- MC33172(#1) Pin 1 Output 1  
+MC33172(#1) Pin 3 (input)  <---  Sense Connector     
+
+
+---> MC33172 (#2) Amplifier 2 (Pins 5,6,7): pre-amplification of Sense Connector Signals, Output connected to MCP3202 A/D CH1
 
 
 ___
@@ -154,6 +160,13 @@ ___
 </div>
 
 
+<figure style="float:right; vertical-align:top; width:44%">
+<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/supply_top_2.jpg?raw=true" target="_blank">
+<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/supply_top_2.jpg?raw=true" alt="my alt text" /></a><br>
+<figcaption style="text-align:left">Supply PCB of HM7044 (top side)</figcaption>
+</figure>
+
+
 <div style="clear:both">
 </div>
 
@@ -162,11 +175,11 @@ ___
 ### ASIC/CPU PCB  
 
 
-456
+789
 
 <div style="clear:both">
 <p>
-<figure style="float:left; vertical-align:top; width: 90 %">
+<figure style="float:left; vertical-align:top; width: 20 %">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">CPU PCB of HM7044 (top side)</figcaption>
