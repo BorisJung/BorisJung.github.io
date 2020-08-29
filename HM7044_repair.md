@@ -142,13 +142,13 @@ ___
 <figure style="float:left; vertical-align:top; width:44%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" alt="my alt text" /></a><br>
-<figcaption style="text-align:left">Main PCB of HM7044 (top side)</figcaption>
+<figcaption style="text-align:left">Supply PCB of HM7044 (top side)</figcaption>
 </figure>
 
 <figure style="float:right; vertical-align:top; width:44%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" alt="my alt text" /></a><br>
-<figcaption style="text-align:left">Main PCB of HM7044 (bottom side)</figcaption>
+<figcaption style="text-align:left">Supply PCB of HM7044 (bottom side)</figcaption>
 </figure>
 </p>
 </div>
@@ -165,18 +165,10 @@ ___
 <div style="clear:both">
 <p>
 <figure style="float:left; vertical-align:top; width:44%">
-<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" target="_blank">
-<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" alt="my alt text" /></a><br>
-<figcaption style="text-align:left">Main PCB of HM7044 (top side)</figcaption>
+<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true" target="_blank">
+<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true" alt="my alt text" /></a><br>
+<figcaption style="text-align:left">CPU PCB of HM7044 (top side)</figcaption>
 </figure>
-
-<figure style="float:right; vertical-align:top; width:44%">
-<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" target="_blank">
-<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" alt="my alt text" /></a><br>
-<figcaption style="text-align:left">Main PCB of HM7044 (bottom side)</figcaption>
-</figure>
-</p>
-</div>
 
 
 <div style="clear:both">
