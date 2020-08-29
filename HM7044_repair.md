@@ -35,26 +35,6 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 
 ### Notes
-
-
--> There must be a switch for switching between saved limit value and momentary sense reading value!
-
-- Must be on CPU board, since LED Digits input signal comes from B2B-connector
-
-data input Serial/Parallel conv <-> Pin 17 front board to cpu board connector <-> Pin 2 4094 shift register & Pin 27 of main asic / CPU
-
--> CPU sends serial signal to both shift register for optocoupler drive, as well as Serial/Parallel conv for driving meter displays
-
-TLP2630 output pins to Pin 16/18 of B2B connector, pulled high via 10k resistors to VCC (of secondary/supply board side), Pin 8 of B2B Connector
-
-
-___
-Next:
-
-- optocoupler going where exactly? (switch between limit and sensed current value?)
-- optocoupler defect? input/control signal working? (4094?)
-
-
 ___
 
 
@@ -71,6 +51,38 @@ for current meter:
 
 KW1-391AGA <-> 7228 <-> HCT164 <-> Connector Pin 17
 
+
+___
+
+-> There must be a switch for switching between saved limit value and momentary sense reading value!
+
+- Must be on CPU board, since LED Digits input signal comes from B2B-connector
+
+data input Serial/Parallel conv <-> Pin 17 front board to cpu board connector <-> Pin 2 4094 shift register & Pin 27 of main asic / CPU
+
+more readable:
+
+Pin 27 of main asic/CPU connected to 
+- Pin 2 of 4094 shift register (middle)
+AND
+- Pin 17 front board connector (connecting to data input of HCT164 Ser>Par conv on front board, driving 7228 of current meter) 
+
+-> CPU sends serial signal to both shift register for optocoupler drive, as well as Serial/Parallel conv for driving meter displays
+
+TLP2630 output pins to Pin 16/18 of B2B connector, pulled high via 10k resistors to VCC (of secondary/supply board side), Pin 8 of B2B Connector
+
+
+___
+Next:
+
+- optocoupler going where exactly? (switch between limit and sensed current value?)
+- optocoupler defect? input/control signal working? (4094?)
+
+
+___
+
+- 4094 strobe input driven by supply board B2B pin 1 and 2 
+- all supply board channels drive/connected to same 4094 strobe input (the one sitting in the middle, connected to current meter) 
 
 ___
 
