@@ -16,16 +16,16 @@ ___
 ### Change log
 
 Update 22-08-2020:
-- added PlantPi page
-- added Notes and more ICs (HM7044 repair)
+- [PlantPi](https://borisjung.github.io/PlantPi.html) page added
+- Notes and more ICs added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html))
 
 Update 17-08-2020:
-- added more identified ICs (HM7044 repair)
-- added traced connections / measurement point voltages (HM7044 repair)
+- more identified ICs added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html))
+- traced connections / measurement point voltages added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html))
 
 Update 21-07-2020:
-- added more identified ICs (HM7044 repair)
-- added front pcb pics (HM7044 repair) 
+- more identified ICs added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html))
+- front pcb pics added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html)) 
 
 Update 12-07-2020:
 - [Digital Potentiometer Evaluation](https://borisjung.github.io/digiPots.html) page added
