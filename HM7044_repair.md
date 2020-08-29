@@ -164,7 +164,7 @@ ___
 
 <div style="clear:both">
 <p>
-<figure style="float:left; vertical-align:top; width:44%">
+<figure style="float:left; vertical-align:top; width:99 %">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true" alt="my alt text" /></a><br>
 <figcaption style="text-align:left">CPU PCB of HM7044 (top side)</figcaption>
