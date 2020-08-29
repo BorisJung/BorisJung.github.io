@@ -177,8 +177,6 @@ ___
 ___
 
 ### ASIC/CPU PCB  
-123
-
 
 <div style="clear:both">
 <p>
