@@ -111,9 +111,9 @@ MC33172(#1) Pin 3 (input)  <---  Sense Connector
 ---> MC33172 (#2) Amplifier 2 (Pins 5,6,7): pre-amplification of Sense Connector Signals, Output connected to MCP3202 A/D CH1
 
 
-MC33172 #1: getting Sense Connector Voltages, feeding MC33172 #2
-MC33172 #2: feeding A/D converter
-MC33172 #3: getting MC33172 #2 Output onto Pin 2 Input
+MC33172 #1: getting Sense Connector Voltages, feeding MC33172 #2  
+MC33172 #2: feeding A/D converter  
+MC33172 #3: getting MC33172 #2 Output onto Pin 2 Input  
 
 ___
 
