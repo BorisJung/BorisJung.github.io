@@ -58,14 +58,7 @@ ___
 
 - Must be on CPU board, since LED Digits input signal comes from B2B-connector
 
-data input Serial/Parallel conv <-> Pin 17 front board to cpu board connector <-> Pin 2 4094 shift register & Pin 27 of main asic / CPU
-
-more readable:
-
-Pin 27 of main asic/CPU connected to 
-- Pin 2 of 4094 shift register (middle)
-AND
-- Pin 17 front board connector (connecting to data input of HCT164 Ser>Par conv on front board, driving 7228 of current meter) 
+data input Serial/Parallel conv <-> Pin 17 front board to cpu board connector <-> Pin 2 4094 shift register & Pin 27 of main asic / CPU 
 
 -> CPU sends serial signal to both shift register for optocoupler drive, as well as Serial/Parallel conv for driving meter displays
 
@@ -81,10 +74,39 @@ Next:
 
 ___
 
-- 4094 strobe input driven by supply board B2B pin 1 and 2 
-- all supply board channels drive/connected to same 4094 strobe input (the one sitting in the middle, connected to current meter) 
+- HCT164 Pin 1 (data input A) driven by supply board B2B pin 19 and 20 
+- all supply board channels drive/connected to same HCT164 data input A (the one sitting in the middle, connected to current meter) 
 
 ___
+more readable:
+
+Pin 27 of main asic/CPU connected to 
+- Pin 2 (data input B) of HCT164D Ser>Par shift register (CPU board, middle)
+AND
+- Pin 17 front board connector 
+
+
+
+Middle HCT164 Ser>Par shift register:
+- DSA input driven by supply board (all channels connected to same input)
+- DSB input driven by main asic/CPU
+- Outputs high only for DSA&DSB
+
+
+___
+
+Supply Board Connector Pin 19 
+
+- drives TLP2630 optocoupler connected to HCT164 Ser>Par data input DSA
+
+Origin:
+Supply Board Connector Pin 19   <---  Resistor divider  <--- BC846B darlington stage  <--- 61k9  <---  MCP3202 A/D Pin 6 Data Out 
+
+
+
+
+___
+
 
 ## Pictures
 
@@ -170,4 +192,4 @@ with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/1602
 - **TLP2630** Photocoupler (photo-IC output) ([datasheet](https://toshiba.semicon-storage.com/eu/semiconductor/product/optoelectronics/detail.TLP2630.html))
 
 
-
+- **1Bs 71** mark on SOT23 package might be BC846B ( [datasheet](https://www.infineon.com/dgdl/Infineon-BC846SERIES_BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a30431441fb5d011449cec9bd0241))
