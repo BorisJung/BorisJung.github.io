@@ -162,7 +162,7 @@ ___
 ### ASIC/CPU PCB  
 
 
-123
+456
 
 <div style="clear:both">
 <p>
@@ -172,7 +172,8 @@ ___
 <figcaption style="text-align:left">CPU PCB of HM7044 (top side)</figcaption>
 </figure>
 
-
+</p>
+</div>
 <div style="clear:both">
 </div>
 
