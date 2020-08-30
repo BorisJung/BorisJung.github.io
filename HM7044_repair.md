@@ -37,7 +37,7 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 ## First Conclusions
 
 
-<div>
+<div><p>
 <figure style="float:right; vertical-align:top; width:90%">
 <a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks.png?raw=true
 " target="_blank">
@@ -45,7 +45,7 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 " alt="my alt text" /></a><br>
 <figcaption style="text-align:left"> HM7044 PCB diagram </figcaption>
 </figure>
-</div>
+</p></div>
 
 
 
