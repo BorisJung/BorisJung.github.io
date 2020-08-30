@@ -50,7 +50,7 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 
 
-
+___
 
 
 ### Notes
