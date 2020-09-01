@@ -39,7 +39,7 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
 <div style="clear:both"><p>
-<figure style="display: inline-block; width:90%">
+<figure style="display: inline-block; width:98%">
 <a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
 " target="_blank">
 <img src="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
@@ -48,9 +48,9 @@ After having spent some time with the device, I think it's time for a small summ
 </figure>
 </p></div>
 
-<div>
-Thegrey arrows symbolize 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
-</div>
+
+The grey arrows symbolize 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
+
 
 
 ### CPU board
