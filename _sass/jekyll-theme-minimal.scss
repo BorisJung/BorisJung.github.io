@@ -359,7 +359,7 @@ footer {
 .outer {
   display: block;
   text-align: center;
-  border: thick green solid;
+  border: 0px green solid;
 }
 
 /* START figures and captions
@@ -384,7 +384,7 @@ figure.centeredFigure {
     font-style: italic;
     font-size: smaller;
     text-indent: 0;
-    border: 5px black solid; // thin als größenangabe möglich
+    border: 0px black solid; // thin als größenangabe möglich
     margin: 0.85em;
     padding: 0.1em;
 }
@@ -404,7 +404,7 @@ figure.inlineFig {
     width: 45%;
     margin: 0 auto;
     display: block;
-    border: thick silver solid;
+    border: 0px silver solid;
 }
 
 figure img {
