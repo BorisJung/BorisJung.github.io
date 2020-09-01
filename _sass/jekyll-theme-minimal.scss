@@ -383,7 +383,7 @@ figure.centeredFigure {
     font-style: italic;
     font-size: smaller;
     text-indent: 0;
-    border: 1px black solid; // thin als größenangabe möglich
+    border: 3px black solid; // thin als größenangabe möglich
     margin: 0.85em;
     padding: 0.1em;
 }
@@ -403,7 +403,7 @@ figure.inlineFig {
     width: 45%;
     margin: 0 auto;
     display: block;
-    border: thin silver solid;
+    border: thick silver solid;
 }
 
 figure img {
