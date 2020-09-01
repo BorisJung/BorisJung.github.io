@@ -40,9 +40,8 @@ After having spent some time with the device, I think it's time for a small summ
 
 
 ![Picture description](https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true){:class="center-image"}
-
-![Picture description](https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true =200)
 <figcaption style="text-align:left">Fig. 1: HM7044 PCB diagram </figcaption>
+
 
 The grey arrows symbolize 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
 
