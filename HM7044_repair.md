@@ -44,6 +44,8 @@ Centered text in paragraph Centered text in paragraphCentered text in paragraphC
 </p>
 
 
+![Picture description](https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true){: .center-image }
+
 <div><p>
 <figure style="display:block; align:center; width:80%; margin:0 auto">
 <a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true

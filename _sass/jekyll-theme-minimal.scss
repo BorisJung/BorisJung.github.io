@@ -381,6 +381,12 @@ position: absolute;
 clip: rect(0px,50px,100px,50px);
 }
 
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 figure figcaption {
     border: 0px dotted blue;
     text-align: left;
