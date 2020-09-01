@@ -35,6 +35,8 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 ## First Conclusions
 
+123
+
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
 <figure class="center-image">
