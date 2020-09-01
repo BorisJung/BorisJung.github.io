@@ -367,7 +367,7 @@ figure {
     font-style: italic;
     font-size: smaller;
     text-indent: 0;
-    border: 0px silver solid; // thin als größenangabe möglich
+    border: thin silver solid; // thin als größenangabe möglich
     margin: 0.85em;
     padding: 0.1em;
 }
@@ -376,7 +376,7 @@ figure {
 {
     margin: 0 auto;
     display: block;
-    border: 1px black;
+    border: thin black;
 }
 
 figure img {
