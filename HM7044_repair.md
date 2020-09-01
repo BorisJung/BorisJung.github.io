@@ -48,7 +48,17 @@ After having spent some time with the device, I think it's time for a small summ
 </figure>
 </p></div>
 
+The grey arrows symbolize 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
 
+### CPU board <-> Supply board
+
+The supply board pcb consists of 4 identical sections representing the 4 output channels, each of them connected to the CPU board with its own 20-pin connector. On the CPU board those signals are fed via four opto-couplers. Three of them connect signals from the CPU board to the supply board, while the other one has the opposed direction and connects 2 signals from the supply board to the CPU board, on of them being the ADC Output.
+
+- 4 x 20 Pin connectors (1 for each channel)
+- 4 opto-couplers (CPU->Supply: 3 , Supply->CPU: 1)
+- MCP3202 ADC output signal from supply board to CPU
+
+###
 
 
 
