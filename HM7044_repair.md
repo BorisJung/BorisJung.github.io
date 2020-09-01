@@ -49,8 +49,10 @@ After having spent some time with the device, I think it's time for a small summ
 </figure>
 </p></div>
 
-
+<p>
 The grey arrows symbolize 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
+</p>
+
 
 ### CPU board
 
