@@ -35,11 +35,11 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 ## First Conclusions
 
-432
+123
 
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
-<figure class="cfigure">
+<figure class="centeredFigure">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true" class="center-image"/>
 </figure>
 
