@@ -45,6 +45,10 @@ After having spent some time with the device, I think it's time for a small summ
 </figure>
 </div>
 
+
+
+After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
+After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 <br> <br>
 
 <figure class="centeredFigure">
@@ -52,8 +56,18 @@ After having spent some time with the device, I think it's time for a small summ
 </figure>
 
 
+
+After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
+After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
+<br> <br>
+
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true" class="center-image"/>
 
+
+
+After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
+After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
+<br> <br>
 
 ![Picture description](https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true){:class="center-image"}
 <figcaption style="text-align:left">Fig. 1: HM7044 PCB diagram </figcaption>
