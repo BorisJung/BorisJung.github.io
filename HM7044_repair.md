@@ -34,12 +34,12 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 
 ## First Conclusions
-11111
+222
 
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
 
-<p style="text-align:center">
+<p style="text-align:center; width=80%">
 Centered text in paragraph Centered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraph
 </p>
 
