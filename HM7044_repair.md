@@ -35,54 +35,7 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 ## First Conclusions
 
-12345654321
-
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
-
-
-<div class="outer">
-<figure>
-<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true"/>
-</figure>
-</div>
-
-
-
-After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
-After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
-<br> <br>
-
-
-<p>
-<div class="outer">
-<figure class="centeredFigure">
-<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true"/>
-</figure>
-</div>
-</p>
-
-
-After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
-After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
-<br> <br>
-
-<figure class="centeredFigure">
-<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true"/>
-</figure>
-
-
-
-After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
-After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
-<br> <br>
-
-<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true" class="center-image"/>
-
-
-
-After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
-After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
-<br> <br>
 
 ![Picture description](https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true){:class="center-image"}
 <figcaption style="text-align:left">Fig. 1: HM7044 PCB diagram </figcaption>
@@ -250,7 +203,7 @@ ___
 </p>
 </div>
 
-<div class="outer">
+<div>
 <figure style="float:right; vertical-align:top; width:90%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/supply_top_2.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/supply_top_2.jpg?raw=true" alt="my alt text" /></a><br>
