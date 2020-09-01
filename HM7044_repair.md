@@ -49,6 +49,7 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
 <div style="clear:both"><p>
+<br style="clear:both">
 </p></div>
 
 
