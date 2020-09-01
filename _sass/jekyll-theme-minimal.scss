@@ -372,6 +372,13 @@ figure {
     padding: 0.1em;
 }
 
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+    border: 1px black;
+}
+
 figure img {
     vertical-align: top;
 }
@@ -381,12 +388,6 @@ position: absolute;
 clip: rect(0px,50px,100px,50px);
 }
 
-.center-image
-{
-    margin: 0 auto;
-    display: block;
-    border: 1px black;
-}
 
 figure figcaption {
     border: 0px dotted blue;
