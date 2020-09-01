@@ -44,6 +44,15 @@ Centered text in paragraph Centered text in paragraphCentered text in paragraphC
 </p>
 
 
+<figure class=".center-image">
+<a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
+" target="_blank">
+<img src="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
+" alt="my alt text" /></a><br>
+</figure>
+<br style="clear:both">
+
+
 ![Picture description](https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true){: .center-image }
 
 <div><p>
