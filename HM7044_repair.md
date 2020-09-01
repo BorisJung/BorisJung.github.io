@@ -39,30 +39,7 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
 
-<p style="display:block; text-align:center; margin=20%">
-Centered text in paragraph Centered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraph
-</p>
-
-<div style="display: block; text-align: center;">
-<figure class="center-image">
-<a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
-" target="_blank">
-<img src="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
-"/></a>
-</figure>
-<br style="clear:both">
-<div>
-
-![Picture description](https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true){: .center-image }
-
-<div><p>
-<figure style="display:block; align:center; width:80%; margin:0 auto">
-<a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
-" target="_blank">
-<img src="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
-" alt="my alt text" /></a><br>
-</figure>
-</p><br style="clear:both"></div>
+![Picture description](https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true)
 
 
 The grey arrows symbolize 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
