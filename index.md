@@ -15,6 +15,10 @@ ___
 
 ### Change log
 
+Update 30-08-2020:
+- First Conclusions section added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html)) 
+- More pictures added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html))
+
 Update 22-08-2020:
 - [PlantPi](https://borisjung.github.io/PlantPi.html) page added
 - Notes and more ICs added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html))

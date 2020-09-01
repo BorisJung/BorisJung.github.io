@@ -51,6 +51,10 @@ After having spent some time with the device, I think it's time for a small summ
 
 
 
+
+
+
+
 ___
 
 
