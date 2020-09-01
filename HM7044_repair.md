@@ -250,7 +250,7 @@ ___
 </p>
 </div>
 
-<div>
+<div class="outer">
 <figure style="float:right; vertical-align:top; width:90%">
 <a href="https://github.com/BorisJung/HM7044/blob/master/Pics/supply_top_2.jpg?raw=true" target="_blank">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/supply_top_2.jpg?raw=true" alt="my alt text" /></a><br>
