@@ -44,6 +44,7 @@ After having spent some time with the device, I think it's time for a small summ
 <figure class="centeredFigure">
 <img src="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true"/>
 </figure>
+</p>
 </div>
 
 
