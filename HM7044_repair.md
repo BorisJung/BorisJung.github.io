@@ -38,6 +38,7 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
+
 <div style="clear:both"><p>
 <figure style="float:center; vertical-align:top; width:90%">
 <a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
@@ -47,6 +48,7 @@ After having spent some time with the device, I think it's time for a small summ
 <figcaption style="text-align:left">Fig. 1: HM7044 PCB diagram </figcaption>
 </figure>
 </p></div>
+
 
 The grey arrows symbolize 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
 
