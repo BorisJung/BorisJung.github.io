@@ -34,18 +34,18 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 
 ## First Conclusions
-111
+222
 
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
 
-<p style="text-align:center; margin=20%">
+<p style="display:block; text-align:center; margin=20%">
 Centered text in paragraph Centered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraph
 </p>
 
 
 <div><p>
-<figure style="align:center; width:80%; margin:0 auto">
+<figure style="display:block; align:center; width:80%; margin:0 auto">
 <a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
 " target="_blank">
 <img src="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
