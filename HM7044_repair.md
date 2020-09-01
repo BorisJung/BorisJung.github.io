@@ -3,17 +3,6 @@ layout: default
 title: HM7044 Repair
 ---
 
-
-<div style="clear:both"><p>
-<figure style="display: inline-block; width:80%">
-<a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
-" target="_blank">
-<img src="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
-" alt="my alt text" /></a><br>
-<figcaption style="text-align:left">Fig. 1: HM7044 PCB diagram </figcaption>
-</figure>
-</p></div>
-
 ```
 (under construction)
 ```
@@ -45,12 +34,20 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 
 ## First Conclusions
-123
+
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
+
 <div style="clear:both"><p>
-<br style="clear:both">
-</p></div>
+<figure style="display: inline-block; width:80%">
+<a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
+" target="_blank">
+<img src="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
+" alt="my alt text" /></a><br>
+<figcaption style="text-align:left">Fig. 1: HM7044 PCB diagram </figcaption>
+</figure>
+</p><br style="clear:both"></div>
+
 
 
 The grey arrows symbolize 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
