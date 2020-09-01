@@ -36,13 +36,13 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 ## First Conclusions
 
-After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the internal device structure in forms of main building blocks.
+After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
 <div><p>
 <figure style="float:right; vertical-align:top; width:90%">
-<a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks.png?raw=true
+<a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
 " target="_blank">
-<img src="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks.png?raw=true
+<img src="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
 " alt="my alt text" /></a><br>
 <figcaption style="text-align:left">Fig. 1: HM7044 PCB diagram </figcaption>
 </figure>

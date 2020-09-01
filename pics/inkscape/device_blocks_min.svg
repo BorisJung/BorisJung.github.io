@@ -10,12 +10,12 @@
    inkscape:export-ydpi="96"
    inkscape:export-xdpi="96"
    inkscape:export-filename="/Users/Boris/Documents/GitHub/BorisJung.github.io/pics/inkscape/device_blocks.png"
-   sodipodi:docname="device_blocks_annot.svg"
+   sodipodi:docname="device_blocks_min.svg"
    inkscape:version="1.0 (4035a4f, 2020-05-01)"
    id="svg8"
    version="1.1"
-   viewBox="0 0 168.60092 93.09346"
-   height="93.09346mm"
+   viewBox="0 0 168.60092 64.558334"
+   height="64.558334mm"
    width="168.60092mm">
   <defs
      id="defs2">
@@ -258,7 +258,7 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="270.0586"
+     inkscape:cy="162.20933"
      inkscape:cx="332.51344"
      inkscape:zoom="1.0400047"
      inkscape:pageshadow="2"
@@ -280,34 +280,10 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-36.262857,-46.429038)"
+     transform="translate(-36.262857,-74.964159)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Ebene 1">
-    <g
-       transform="translate(49.238273,-27.984649)"
-       id="g860">
-      <rect
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect10"
-         width="46.729687"
-         height="12.964911"
-         x="47.960194"
-         y="74.545815"
-         rx="1.3229166"
-         ry="1.3229166" />
-      <text
-         xml:space="preserve"
-         style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-         x="51.618763"
-         y="82.220963"
-         id="text837"><tspan
-           sodipodi:role="line"
-           id="tspan835"
-           x="51.618763"
-           y="82.220963"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">Input Transformer</tspan></text>
-    </g>
     <g
        transform="translate(-8.2574511,13.016358)"
        id="g865">
@@ -396,93 +372,5 @@
        style="fill:#666666;stroke:#666666;stroke-width:1.32292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2279)"
        d="M 148.82745,129.74313 H 94.893396"
        id="path2275" />
-    <text
-       id="text2851"
-       y="146.66496"
-       x="44.311687"
-       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="146.66496"
-         x="44.311687"
-         id="tspan2849"
-         sodipodi:role="line">Meter displays</tspan></text>
-    <text
-       id="text2855"
-       y="156.07799"
-       x="31.492844"
-       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="156.07799"
-         x="31.492844"
-         id="tspan2853"
-         sodipodi:role="line">Control buttons and knobs</tspan></text>
-    <text
-       id="text2859"
-       y="163.71016"
-       x="34.830105"
-       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="163.71016"
-         x="34.830105"
-         id="tspan2857"
-         sodipodi:role="line">Sense input connectors</tspan></text>
-    <text
-       id="text2863"
-       y="172.61436"
-       x="40.087662"
-       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="172.61436"
-         x="40.087662"
-         id="tspan2861"
-         sodipodi:role="line">Output connectors</tspan></text>
-    <text
-       id="text2867"
-       y="145.64734"
-       x="163.46581"
-       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="145.64734"
-         x="163.46581"
-         id="tspan2865"
-         sodipodi:role="line">4 parallel channels</tspan></text>
-    <text
-       id="text2871"
-       y="150.98987"
-       x="166.51868"
-       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="150.98987"
-         x="166.51868"
-         id="tspan2869"
-         sodipodi:role="line">Power Stage</tspan></text>
-    <text
-       id="text2875"
-       y="159.13084"
-       x="167.28189"
-       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="159.13084"
-         x="167.28189"
-         id="tspan2873"
-         sodipodi:role="line">ADC/DAC </tspan></text>
-    <text
-       id="text2879"
-       y="170.57912"
-       x="187.37996"
-       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="170.57912"
-         x="187.37996"
-         id="tspan2877"
-         sodipodi:role="line">Signal processing</tspan></text>
   </g>
 </svg>
