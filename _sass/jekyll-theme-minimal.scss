@@ -388,6 +388,15 @@ figure.centeredFigure {
     padding: 0.1em;
 }
 
+figure.inlineFig {
+    display: inline-block;
+    text-align: initial;
+    vertical-align: top;
+    position: relative;
+    margin: 0.5em;
+    font-size: 0.8em;
+}
+
 
 .center-image
 {
