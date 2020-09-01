@@ -34,7 +34,7 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 
 ## First Conclusions
-4444
+1
 
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
@@ -43,7 +43,7 @@ After having spent some time with the device, I think it's time for a small summ
 Centered text in paragraph Centered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraphCentered text in paragraph
 </p>
 
-
+<div style="display: block; text-align: center;">
 <figure class="center-image">
 <a href="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true
 " target="_blank">
@@ -51,7 +51,7 @@ Centered text in paragraph Centered text in paragraphCentered text in paragraphC
 "/></a>
 </figure>
 <br style="clear:both">
-
+<div>
 
 ![Picture description](https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true){: .center-image }
 
