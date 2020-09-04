@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>BRIR from ISM | Project Hub</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="BRIR from ISM" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Central hub to the repositories of my projects." />
+<meta property="og:description" content="Central hub to the repositories of my projects." />
+<link rel="canonical" href="http://localhost:4000/lowJitterLimiter.html" />
+<meta property="og:url" content="http://localhost:4000/lowJitterLimiter.html" />
+<meta property="og:site_name" content="Project Hub" />
+<script type="application/ld+json">
+{"headline":"BRIR from ISM","description":"Central hub to the repositories of my projects.","url":"http://localhost:4000/lowJitterLimiter.html","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">Project Hub</a></h1>
+        
+        
+
+        <p>Central hub to the repositories of my projects.</p>
+
+        
+        
+        <!-- inhaltsverzeichnis test-->
+        <!--<h2>Contents</h2>
+        <ul class="seitenmenue">
+           
+              <li><a href="/">Welcome</a></li>
+           
+              <li><a href="/digiPots.html">Digital Potentiometer Evaluation</a></li>
+           
+              <li><a href="/HM7044_repair.html">HM7044 Repair</a></li>
+           
+              <li><a href="/ism_brir.html">Image Source Modelling</a></li>
+           
+              <li><a href="/lowJitterLimiter.html">Low Jitter Hard Limiter Design Tool</a></li>
+           
+              <li><a href="/PNmeas.html">Phase Noise Measurement System for Audio DACs</a></li>
+           
+              <li><a href="/SerParCalc.html">Series/Parallel Resistance Calculator</a></li>
+           
+              <li><a href="/pcbs.html">Layouts and PCBs</a></li>
+           
+              <li><a href="/LTSpice.html">LTSpice Simulations</a></li>
+           
+              <li><a href="/revEng_ClassG.html">Class G Modulator Reverse Engineering</a></li>
+           
+              <li><a href="/channelStrip.html">Channelstrip</a></li>
+           
+              <li><a href="/PlantPi.html">PlantPi server</a></li>
+           
+              <li><a href="/homePi.html">Homebridge Pi</a></li>
+           
+        </ul>-->
+        
+        <h2>Contents</h2>
+        <ul class="seitenmenue">
+        
+            <li class="">
+              <a href="/">Welcome</a>
+            </li>
+        
+            <li class="">
+              <a href="/digiPots.html">Digital Potentiometer Evaluation</a>
+            </li>
+        
+            <li class="">
+              <a href="/HM7044_repair.html">HM7044 Repair</a>
+            </li>
+        
+            <li class="">
+              <a href="/ism_brir.html">Image Source Modelling</a>
+            </li>
+        
+            <li class="active">
+              <a href="/lowJitterLimiter.html">Low Jitter Hard Limiter Design Tool</a>
+            </li>
+        
+            <li class="">
+              <a href="/PNmeas.html">Phase Noise Measurement System for Audio DACs</a>
+            </li>
+        
+            <li class="">
+              <a href="/SerParCalc.html">Series/Parallel Resistance Calculator</a>
+            </li>
+        
+            <li class="">
+              <a href="/pcbs.html">Layouts and PCBs</a>
+            </li>
+        
+            <li class="">
+              <a href="/LTSpice.html">LTSpice Simulations</a>
+            </li>
+        
+            <li class="">
+              <a href="/revEng_ClassG.html">Class G Modulator Reverse Engineering</a>
+            </li>
+        
+            <li class="">
+              <a href="/channelStrip.html">Channelstrip</a>
+            </li>
+        
+            <li class="">
+              <a href="/PlantPi.html">PlantPi server</a>
+            </li>
+        
+            <li class="">
+              <a href="/homePi.html">Homebridge Pi</a>
+            </li>
+        
+        </ul>
+        
+        
+        
+        <p class="view"><a href="https://www.gitshowcase.com/borisjung">View My GitShowcase Profile</a></p>
+        
+        
+        
+
+      </header>
+      <section>
+      <!-- Anzeige der aktuellen page.url variable:
+      /lowJitterLimiter.html
+      -->
+      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(under construction)
+</code></pre></div></div>
+
+<h1 id="low-jitter-hard-limiter-design-tool">Low Jitter Hard Limiter Design Tool</h1>
+
+<p><a id="forkme_banner" href="https://github.com/BorisJung/Low_Jitter_Hard_Limiter_Design_Tool#low-jitter-hard-limiter-design-tool">View GitHub Repository</a></p>
+
+<p>This MatLab tool was developed while designing the hard limiter input stage for the phase noise measurement system during the work on my Bachelor’s Thesis.</p>
+
+<p>It makes use of the design guide for low jitter hard limiters by Oliver M. Collins published in the following IEEE paper:</p>
+
+<p><a href="https://ieeexplore.ieee.org/document/494304">The Design of Low Jitter Hard Limiters</a></p>
+
+<p>The script is meant to be used by executing jitter_calc.m in MatLab. It starts with a user input window, where the given design parameters from the collins paper are entered. The script then calculates gain distribution, time constants, resulting jitter and some other parameters.</p>
+
+<p><img src="https://github.com/BorisJung/Low_Jitter_Hard_Limiter_Design_Tool/blob/master/pics/limiterCalc.png?raw=true" alt="inputDlg_pic" /></p>
+
+<p><img src="https://github.com/BorisJung/Low_Jitter_Hard_Limiter_Design_Tool/blob/master/pics/limiterCalc_results.png?raw=true" alt="results" /></p>
+
+
+      </section>
+      
+      <!-- original footer:
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+      -->
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

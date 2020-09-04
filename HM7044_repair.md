@@ -33,32 +33,34 @@ In another test remote functionality via RS-232 was confirmed succesfully.
 
 
 
-## First Conclusions
+## First Conclusions (notes for self)
 
 After having spent some time with the device, I think it's time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.
 
-![Picture description](https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true){:class="center-image"}
-
-The grey arrows symbolize 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
-
-<figure style="float:left; vertical-align:bottom; width:45%">
+<div class="outer">
+<figure class="centeredFigure" style="clear:both">
 <img src="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true"/><br>
-<figcaption style="text-align:left">Device structure</figcaption>
+<figcaption style="text-align:left">Fig. 1: Device structure</figcaption>
 </figure>
+</div>
 
-
-The grey arrows symbolize 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
+The grey arrows symbolize communication via 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
 
 
 
 ### CPU board
 
 - ASIC: HM7044-2 Ver.: 2.01
+- Serial/Parallel converter ICs
+- Shift registers
+- TLP2630 opto-couplers for communication with supply board
 - Level translator for RS-232 remote control input
+
+
 
 ### CPU board <-> Supply board
 
-The supply board pcb consists of 4 identical sections representing the 4 output channels, each of them connected to the CPU board with its own 20-pin connector. On the CPU board those signals are fed via four opto-couplers. Three of them connect signals from the CPU board to the supply board, while the other one has the opposed direction and connects 2 signals from the supply board to the CPU board, on of them being the ADC Output.
+The supply board pcb consists of 4 identical sections representing the 4 output channels, each of them connected to the CPU board with its own 20-pin connector. On the CPU board those signals are fed via four opto-couplers. Three of them connect signals from the CPU board to the supply board, while the other one has the opposed direction and connects 2 signals from the supply board to the CPU board, one of them being the ADC Output.
 
 - 4 x 20 Pin connectors (1 for each channel)
 - 4 opto-couplers (CPU->Supply: 3 , Supply->CPU: 1)
@@ -68,8 +70,14 @@ The supply board pcb consists of 4 identical sections representing the 4 output 
 
 - Serial/Parallel converters
 - Signals directly coupled
-- 
+- CPU board --> meter display data --> front board
+- Front board --> button/knobs control signals --> CPU board
 
+## Backtracking the 7-Segment displays input signal
+
+The displays input signals originate from the 7228 display driver, which ultimately gets his data from the CPU.
+
+CPU (Pin 27) --> B2B-connector (Pin 17) --> Ser/Par conv. (HCT164) --> 7228 --> KW1-391AGA
 
 
 

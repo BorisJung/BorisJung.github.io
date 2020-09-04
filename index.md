@@ -15,6 +15,10 @@ ___
 
 ### Change log
 
+Update 03-09-2020:
+- Finally managed to set-up local Jekyll environment for faster site development
+- Figured out an issue with centering images with caption with Jekyll / CSS
+
 Update 30-08-2020:
 - First Conclusions section added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html)) 
 - More pictures added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html))

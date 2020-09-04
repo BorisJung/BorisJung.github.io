@@ -355,13 +355,6 @@ footer {
 }
 
 
-
-.outer {
-  display: block;
-  text-align: center;
-  border: 0px green solid;
-}
-
 /* START figures and captions
     align: center
     display: inline-block;
@@ -378,33 +371,37 @@ figure {
     padding: 0.1em;
 }
 
-figure.centeredFigure {
-    width: 50%;
-    text-align: center;
-    font-style: italic;
-    font-size: smaller;
-    text-indent: 0;
-    border: 0px black solid; // thin als größenangabe möglich
-    margin: 0.85em;
-    padding: 0.1em;
+
+/* START
+ .outer div wrapper für zentrierte Figure class
+ */
+.outer {
+  display: block;
+  text-align: center;
+  border: 0px blue solid;
+  overflow:hidden;
+  margin: 1em 1em 1em 0em;
 }
 
-figure.inlineFig {
+figure.centeredFigure {
+    float: none;
+    width: 95%;
     display: inline-block;
     text-align: initial;
-    vertical-align: top;
     position: relative;
-    margin: 0.5em;
+    margin: auto;
     font-size: 0.8em;
+    border: 0px red solid; // thin als größenangabe möglich
 }
+/* ENDE */
 
-
+/* IMG Klasse zum Einbinden zentrierter Bilder mit markdown/kramdown inline CSS */
 .center-image
 {
     width: 85%;
     margin: 0 auto;
     display: block;
-    border: 0px silver solid;
+    border: 3px silver solid;
 }
 
 figure img {
@@ -418,6 +415,7 @@ clip: rect(0px,50px,100px,50px);
 
 
 figure figcaption {
+    margin: 1em 0em 1em 0em;
     border: 0px dotted blue;
     text-align: left;
 }

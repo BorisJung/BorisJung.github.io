@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>HM7044 Repair | Project Hub</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="HM7044 Repair" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Central hub to the repositories of my projects." />
+<meta property="og:description" content="Central hub to the repositories of my projects." />
+<link rel="canonical" href="http://localhost:4000/HM7044_repair.html" />
+<meta property="og:url" content="http://localhost:4000/HM7044_repair.html" />
+<meta property="og:site_name" content="Project Hub" />
+<script type="application/ld+json">
+{"headline":"HM7044 Repair","description":"Central hub to the repositories of my projects.","url":"http://localhost:4000/HM7044_repair.html","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">Project Hub</a></h1>
+        
+        
+
+        <p>Central hub to the repositories of my projects.</p>
+
+        
+        
+        <!-- inhaltsverzeichnis test-->
+        <!--<h2>Contents</h2>
+        <ul class="seitenmenue">
+           
+              <li><a href="/">Welcome</a></li>
+           
+              <li><a href="/digiPots.html">Digital Potentiometer Evaluation</a></li>
+           
+              <li><a href="/HM7044_repair.html">HM7044 Repair</a></li>
+           
+              <li><a href="/ism_brir.html">Image Source Modelling</a></li>
+           
+              <li><a href="/lowJitterLimiter.html">Low Jitter Hard Limiter Design Tool</a></li>
+           
+              <li><a href="/PNmeas.html">Phase Noise Measurement System for Audio DACs</a></li>
+           
+              <li><a href="/SerParCalc.html">Series/Parallel Resistance Calculator</a></li>
+           
+              <li><a href="/pcbs.html">Layouts and PCBs</a></li>
+           
+              <li><a href="/LTSpice.html">LTSpice Simulations</a></li>
+           
+              <li><a href="/revEng_ClassG.html">Class G Modulator Reverse Engineering</a></li>
+           
+              <li><a href="/channelStrip.html">Channelstrip</a></li>
+           
+              <li><a href="/PlantPi.html">PlantPi server</a></li>
+           
+              <li><a href="/homePi.html">Homebridge Pi</a></li>
+           
+        </ul>-->
+        
+        <h2>Contents</h2>
+        <ul class="seitenmenue">
+        
+            <li class="">
+              <a href="/">Welcome</a>
+            </li>
+        
+            <li class="">
+              <a href="/digiPots.html">Digital Potentiometer Evaluation</a>
+            </li>
+        
+            <li class="active">
+              <a href="/HM7044_repair.html">HM7044 Repair</a>
+            </li>
+        
+            <li class="">
+              <a href="/ism_brir.html">Image Source Modelling</a>
+            </li>
+        
+            <li class="">
+              <a href="/lowJitterLimiter.html">Low Jitter Hard Limiter Design Tool</a>
+            </li>
+        
+            <li class="">
+              <a href="/PNmeas.html">Phase Noise Measurement System for Audio DACs</a>
+            </li>
+        
+            <li class="">
+              <a href="/SerParCalc.html">Series/Parallel Resistance Calculator</a>
+            </li>
+        
+            <li class="">
+              <a href="/pcbs.html">Layouts and PCBs</a>
+            </li>
+        
+            <li class="">
+              <a href="/LTSpice.html">LTSpice Simulations</a>
+            </li>
+        
+            <li class="">
+              <a href="/revEng_ClassG.html">Class G Modulator Reverse Engineering</a>
+            </li>
+        
+            <li class="">
+              <a href="/channelStrip.html">Channelstrip</a>
+            </li>
+        
+            <li class="">
+              <a href="/PlantPi.html">PlantPi server</a>
+            </li>
+        
+            <li class="">
+              <a href="/homePi.html">Homebridge Pi</a>
+            </li>
+        
+        </ul>
+        
+        
+        
+        <p class="view"><a href="https://www.gitshowcase.com/borisjung">View My GitShowcase Profile</a></p>
+        
+        
+        
+
+      </header>
+      <section>
+      <!-- Anzeige der aktuellen page.url variable:
+      /HM7044_repair.html
+      -->
+      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(under construction)
+</code></pre></div></div>
+
+<p><img src="./pics/hm7044.jpg" alt="fronPanel" /></p>
+
+<h1 id="repair-of-a-hameg-hm7044-power-supply">Repair of a Hameg HM7044 Power Supply</h1>
+
+<p>I was lucky enough to get a Hameg HM7044 384W Power Supply practically for free. It got sorted out, because the current meter display is supposedly defect.</p>
+
+<p>This page and repository serves as documentation for the steps in the repair process.</p>
+
+<h2 id="error-diagnostics-and-description">Error diagnostics and description</h2>
+
+<p>The Current meter does only show 0s on every channel in normal state.</p>
+
+<p>Basic tests on all outputs suggested other functionality is still in order. For setting the current limit as well as when current limit is reached, values are correctly displayed in the current meter.</p>
+
+<p>In another test remote functionality via RS-232 was confirmed succesfully.</p>
+
+<p><strong>Fault details:</strong></p>
+<ul>
+  <li>current meter shows 0.0 A during normal state</li>
+  <li>current meter shows current limit value during setup and when in limiting state</li>
+  <li>other functionality seems to be ok</li>
+</ul>
+
+<h2 id="first-conclusions-notes-for-self">First Conclusions (notes for self)</h2>
+
+<p>After having spent some time with the device, I think it’s time for a small summary of the information I could gather so far. Figure 1 shows the simplified internal device structure.</p>
+
+<div class="outer">
+<figure class="centeredFigure" style="clear:both">
+<img src="https://github.com/BorisJung/BorisJung.github.io/blob/master/pics/inkscape/device_blocks_min.png?raw=true" /><br />
+<figcaption style="text-align:left">Fig. 1: Device structure</figcaption>
+</figure>
+</div>
+
+<p>The grey arrows symbolize communication via 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.</p>
+
+<h3 id="cpu-board">CPU board</h3>
+
+<ul>
+  <li>ASIC: HM7044-2 Ver.: 2.01</li>
+  <li>Serial/Parallel converter ICs</li>
+  <li>Shift registers</li>
+  <li>TLP2630 opto-couplers for communication with supply board</li>
+  <li>Level translator for RS-232 remote control input</li>
+</ul>
+
+<h3 id="cpu-board---supply-board">CPU board &lt;-&gt; Supply board</h3>
+
+<p>The supply board pcb consists of 4 identical sections representing the 4 output channels, each of them connected to the CPU board with its own 20-pin connector. On the CPU board those signals are fed via four opto-couplers. Three of them connect signals from the CPU board to the supply board, while the other one has the opposed direction and connects 2 signals from the supply board to the CPU board, one of them being the ADC Output.</p>
+
+<ul>
+  <li>4 x 20 Pin connectors (1 for each channel)</li>
+  <li>4 opto-couplers (CPU-&gt;Supply: 3 , Supply-&gt;CPU: 1)</li>
+  <li>MCP3202 ADC output signal from supply board to CPU</li>
+</ul>
+
+<h3 id="cpu-board---front-board">CPU board &lt;-&gt; Front board</h3>
+
+<ul>
+  <li>Serial/Parallel converters</li>
+  <li>Signals directly coupled</li>
+  <li>CPU board –&gt; meter display data –&gt; front board</li>
+  <li>Front board –&gt; button/knobs control signals –&gt; CPU board</li>
+</ul>
+
+<h2 id="backtracking-the-7-segment-displays-input-signal">Backtracking the 7-Segment displays input signal</h2>
+
+<p>The displays input signals originate from the 7228 display driver, which ultimately gets his data from the CPU.</p>
+
+<p>CPU (Pin 27) –&gt; B2B-connector (Pin 17) –&gt; Ser/Par conv. (HCT164) –&gt; 7228 –&gt; KW1-391AGA</p>
+
+<hr />
+
+<h3 id="notes">Notes</h3>
+<hr />
+
+<p><strong>Display drivers 7228:</strong></p>
+<ul>
+  <li>Shutdown Pin (10) shorted to VDD -&gt; all drivers always on</li>
+</ul>
+
+<p><strong>Block Diagram</strong></p>
+<ul>
+  <li>separate Drivers for Current Meter (bottom row LED digits KW1-391AGA) and Voltage Meter (top row LED digits KW1-391AGA)</li>
+</ul>
+
+<p>for current meter:</p>
+
+<p>KW1-391AGA &lt;-&gt; 7228 &lt;-&gt; HCT164 &lt;-&gt; Connector Pin 17</p>
+
+<hr />
+
+<p>-&gt; There must be a switch for switching between saved limit value and momentary sense reading value!</p>
+
+<ul>
+  <li>Must be on CPU board, since LED Digits input signal comes from B2B-connector</li>
+</ul>
+
+<p>data input Serial/Parallel conv &lt;-&gt; Pin 17 front board to cpu board connector &lt;-&gt; Pin 2 4094 shift register &amp; Pin 27 of main asic / CPU</p>
+
+<p>-&gt; CPU sends serial signal to both shift register for optocoupler drive, as well as Serial/Parallel conv for driving meter displays</p>
+
+<p>TLP2630 output pins to Pin 16/18 of B2B connector, pulled high via 10k resistors to VCC (of secondary/supply board side), Pin 8 of B2B Connector</p>
+
+<hr />
+<p>Next:</p>
+
+<ul>
+  <li>optocoupler going where exactly? (switch between limit and sensed current value?)</li>
+  <li>optocoupler defect? input/control signal working? (4094?)</li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>HCT164 Pin 1 (data input A) driven by supply board B2B pin 19 and 20</li>
+  <li>all supply board channels drive/connected to same HCT164 data input A (the one sitting in the middle, connected to current meter)</li>
+</ul>
+
+<hr />
+<p>more readable:</p>
+
+<p>Pin 27 of main asic/CPU connected to</p>
+<ul>
+  <li>Pin 2 (data input B) of HCT164D Ser&gt;Par shift register (CPU board, middle)
+AND</li>
+  <li>Pin 17 front board connector</li>
+</ul>
+
+<p>Middle HCT164 Ser&gt;Par shift register:</p>
+<ul>
+  <li>DSA input driven by supply board (all channels connected to same input)</li>
+  <li>DSB input driven by main asic/CPU</li>
+  <li>Outputs high only for DSA&amp;DSB</li>
+</ul>
+
+<hr />
+
+<p>Supply Board Connector Pin 19</p>
+
+<ul>
+  <li>drives TLP2630 optocoupler connected to HCT164 Ser&gt;Par data input DSA</li>
+</ul>
+
+<p>Origin:
+Supply Board Connector Pin 19   &lt;—  Resistor divider  &lt;— BC846B darlington stage  &lt;— 61k9  &lt;—  MCP3202 A/D Pin 6 Data Out</p>
+
+<p>MCP3202 A/D Pin 3 Data In CH1  &lt;—  MC33172(#2) Pin 7 Output 2 
+MC33172(#2) Pins 5/6 (inputs 2)  &lt;— Divider/Filter  &lt;— MC33172(#1) Pin 1 Output 1<br />
+MC33172(#1) Pin 3 (input)  &lt;—  Sense Connector</p>
+
+<p>—&gt; MC33172 (#2) Amplifier 2 (Pins 5,6,7): pre-amplification of Sense Connector Signals, Output connected to MCP3202 A/D CH1</p>
+
+<p>MC33172 #1: getting Sense Connector Voltages, feeding MC33172 #2</p>
+
+<p>MC33172 #2: feeding A/D converter</p>
+
+<p>MC33172 #3: getting MC33172 #2 Output onto Pin 2 Input</p>
+
+<hr />
+
+<h2 id="pictures">Pictures</h2>
+
+<h3 id="front-pcb">Front PCB</h3>
+<div style="clear:both">
+<p>
+<figure style="float:left; vertical-align:bottom; width:45%">
+<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" target="_blank">
+<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_top.jpg?raw=true" alt="my alt text" /></a><br />
+<figcaption style="text-align:left">Front PCB of HM7044 (top side)</figcaption>
+</figure>
+
+<figure style="float:right; vertical-align:bottom; width:45%">
+<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" target="_blank">
+<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/front_bottom.jpg?raw=true" alt="my alt text" /></a><br />
+<figcaption style="text-align:left">Front PCB of HM7044 (bottom side)</figcaption><br />
+</figure>
+</p>
+</div>
+
+<div style="clear:both">
+</div>
+
+<hr />
+
+<h3 id="supply-pcb">Supply PCB</h3>
+
+<div style="clear:both">
+<p>
+<figure style="float:left; vertical-align:top; width:44%">
+<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" target="_blank">
+<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/top.jpg?raw=true" alt="my alt text" /></a><br />
+<figcaption style="text-align:left">Supply PCB of HM7044 (top side)</figcaption>
+</figure>
+
+<figure style="float:right; vertical-align:top; width:44%">
+<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" target="_blank">
+<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/bottom.jpg?raw=true" alt="my alt text" /></a><br />
+<figcaption style="text-align:left">Supply PCB of HM7044 (bottom side)</figcaption>
+</figure>
+</p>
+</div>
+
+<div>
+<figure style="float:right; vertical-align:top; width:90%">
+<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/supply_top_2.jpg?raw=true" target="_blank">
+<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/supply_top_2.jpg?raw=true" alt="my alt text" /></a><br />
+<figcaption style="text-align:left">Supply PCB of HM7044 (top side)</figcaption>
+</figure>
+</div>
+
+<div style="clear:both">
+</div>
+
+<hr />
+
+<h3 id="asiccpu-pcb">ASIC/CPU PCB</h3>
+
+<div style="clear:both">
+<p>
+<figure style="float:left; vertical-align:top; width:90%">
+<a href="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true" target="_blank">
+<img src="https://github.com/BorisJung/HM7044/blob/master/Pics/cpu_board.jpg?raw=true" alt="my alt text" /></a><br />
+<figcaption style="text-align:left">CPU PCB of HM7044 (top side)</figcaption>
+</figure>
+
+</p>
+</div>
+<div style="clear:both">
+</div>
+
+<hr />
+
+<h2 id="identified-ics">Identified ICs</h2>
+
+<ul>
+  <li>
+    <p><strong>LM317L</strong> 3-Terminal Adjustable Regulator
+(<a href="https://www.ti.com/lit/ds/symlink/lm317l.pdf?ts=1596796656076&amp;ref_url=https%253A%252F%252Fwww.google.com%252F">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>LM337LM</strong> 3-Terminal Adjustable Regulator
+(<a href="https://www.ti.com/lit/ds/symlink/lm337l.pdf?ts=1596795119863&amp;ref_url=https%253A%252F%252Fwww.google.com%252F">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>LTC1446</strong> Dual 12-Bit Rail-to-Rail Micropower DAC (<a href="https://www.analog.com/media/en/technical-documentation/data-sheets/1446fa.pdf">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>MCP3202</strong> 2.7V Dual Channel 12-Bit A/D Converter
+with SPI Serial Interface (<a href="https://asset.conrad.com/media10/add/160267/c1/-/en/001083119DS01/datenblatt-1083119-microchip-technology-mcp3202-bisn-datenerfassungs-ic-analog-digital-wandler-adc-extern-soic-8-n.pdf">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>MC33172</strong> Low power dual bipolar operational amplifiers (<a href="https://www.st.com/resource/en/datasheet/mc33172.pdf">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>KW1-391AGA</strong> Single Digit 7-segment LED Display (<a href="https://www.luckylight.cn/media/component/data-sheet/KW1-391AGA.pdf">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>ICM7228</strong> 8-Digit, Microprocessor-Compatible, LED Display Decoder Driver (<a href="https://www.renesas.com/cn/en/www/doc/datasheet/icm7228.pdf">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>HCT4094</strong> 8-stage shift-and-store bus register (<a href="https://assets.nexperia.com/documents/data-sheet/74HC_HCT4094.pdf">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>HCT164</strong> 8-bit serial-in, parallel-out shift register (<a href="https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>HCT165</strong> High-Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register (<a href="https://www.ti.com/lit/ds/schs156c/schs156c.pdf?ts=1596879013114&amp;ref_url=https%253A%252F%252Fwww.google.com%252F">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>TLP2630</strong> Photocoupler (photo-IC output) (<a href="https://toshiba.semicon-storage.com/eu/semiconductor/product/optoelectronics/detail.TLP2630.html">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>1Bs 71</strong> mark on SOT23 package might be BC846B ( <a href="https://www.infineon.com/dgdl/Infineon-BC846SERIES_BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a30431441fb5d011449cec9bd0241">datasheet</a>)</p>
+  </li>
+</ul>
+
+
+      </section>
+      
+      <!-- original footer:
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+      -->
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
