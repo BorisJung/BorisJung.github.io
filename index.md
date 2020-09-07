@@ -14,6 +14,10 @@ This site serves as a hub for the documentation and versioning of some of the pr
 ___
 
 ### Change log
+Update 07-09-2020:
+- Supply to CPU Board B2B-connector pinout added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html))   
+- more identified ICs added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html)) 
+
 
 Update 03-09-2020:
 - Finally managed to set-up local Jekyll environment for faster site development

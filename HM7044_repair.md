@@ -80,6 +80,32 @@ The displays input signals originate from the 7228 display driver, which ultimat
 CPU (Pin 27) --> B2B-connector (Pin 17) --> Ser/Par conv. (HCT164) --> 7228 --> KW1-391AGA
 
 
+___
+
+## Supply Board <-> CPU Board B2B-Connector Pinout
+
+01:   
+02: CLK for ADC & DAC  
+03:   
+04:   
+05:   
+06:   
+07:  
+08: Supply Board GND    
+09:   
+10: Supply Board ADC Darlington Output Stage Collector  
+11:   
+12: Supply Board LM317 Vout (+5,16V)  
+13:   
+14: Supply Board LM337 Vout (-5,26V)  
+15:   
+16:   --> 1kOhm --> PNP Base && 10k && Via
+17:   
+18:   
+19:   
+20: Supply Board ADC Darlington Output Stage Emitter   
+
+
 
 
 
