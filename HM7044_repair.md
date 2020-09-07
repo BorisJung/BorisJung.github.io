@@ -285,6 +285,9 @@ ___
 - **LM337LM** 3-Terminal Adjustable Regulator
 ([datasheet](https://www.ti.com/lit/ds/symlink/lm337l.pdf?ts=1596795119863&ref_url=https%253A%252F%252Fwww.google.com%252F))
 
+- **LM358M** Low Power Dual Operational Amplifier ([datasheet](https://www.ti.com/lit/ds/symlink/lm358-n.pdf?ts=1599502410728&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLM358M%252FNOPB))
+
+
 
 - **LTC1446** Dual 12-Bit Rail-to-Rail Micropower DAC ([datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/1446fa.pdf)) 
 
@@ -309,3 +312,5 @@ with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/1602
 
 
 - **1Bs 71** mark on SOT23 package might be BC846B ( [datasheet](https://www.infineon.com/dgdl/Infineon-BC846SERIES_BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a30431441fb5d011449cec9bd0241))
+
+- **BC859C** (mark: 4GW on SOT23) ([datasheet](https://assets.nexperia.com/documents/data-sheet/BC859_BC860.pdf))
