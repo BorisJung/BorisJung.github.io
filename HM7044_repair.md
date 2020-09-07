@@ -310,6 +310,8 @@ with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/1602
 
 - **TLP2630** Photocoupler (photo-IC output) ([datasheet](https://toshiba.semicon-storage.com/eu/semiconductor/product/optoelectronics/detail.TLP2630.html))
 
+- **FP2 D3009** 5V Signal Relais ([datasheet](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=108-98005&DocType=SS&DocLang=EN)) 
+
 
 - **BC846B** (mark: 1BS on SOT23) [datasheet](https://www.infineon.com/dgdl/Infineon-BC846SERIES_BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a30431441fb5d011449cec9bd0241))
 
