@@ -311,6 +311,6 @@ with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/1602
 - **TLP2630** Photocoupler (photo-IC output) ([datasheet](https://toshiba.semicon-storage.com/eu/semiconductor/product/optoelectronics/detail.TLP2630.html))
 
 
-- **1Bs 71** mark on SOT23 package might be BC846B ( [datasheet](https://www.infineon.com/dgdl/Infineon-BC846SERIES_BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a30431441fb5d011449cec9bd0241))
+- **BC846B** (mark: 1BS on SOT23) [datasheet](https://www.infineon.com/dgdl/Infineon-BC846SERIES_BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a30431441fb5d011449cec9bd0241))
 
 - **BC859C** (mark: 4GW on SOT23) ([datasheet](https://assets.nexperia.com/documents/data-sheet/BC859_BC860.pdf))
