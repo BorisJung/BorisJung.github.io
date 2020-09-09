@@ -214,22 +214,22 @@
 
 <h2 id="supply-board---cpu-board-b2b-connector-pinout">Supply Board &lt;-&gt; CPU Board B2B-Connector Pinout</h2>
 
-<p>01: <br />
+<p>01: Supply Board GND<br />
 02: CLK for ADC &amp; DAC<br />
-03: <br />
-04: <br />
-05: <br />
-06: <br />
-07:<br />
-08: Supply Board GND  <br />
-09: <br />
+03: Supply Board GND<br />
+04: DAC CS<br />
+05: Supply Board GND<br />
+06: ADC CS<br />
+07:  Supply Board GND<br />
+08: Supply Board GND    <br />
+09: Supply Board GND  <br />
 10: Supply Board ADC Darlington Output Stage Collector<br />
-11: <br />
+11: Supply Board GND   <br />
 12: Supply Board LM317 Vout (+5,16V)<br />
-13: <br />
+13: Supply Board GND<br />
 14: Supply Board LM337 Vout (-5,26V)<br />
 15: <br />
-16:   –&gt; 1kOhm –&gt; PNP Base &amp;&amp; 10k &amp;&amp; Via
+16:   –&gt; 1kOhm –&gt; PNP Base &amp;&amp; 10k &amp;&amp; Via<br />
 17: <br />
 18: <br />
 19: <br />
@@ -401,52 +401,64 @@ MC33172(#1) Pin 3 (input)  &lt;—  Sense Connector</p>
 
 <ul>
   <li>
+    <p><strong>TIP142</strong> Complementary power Darlington transistors
+(<a href="https://www.st.com/resource/en/datasheet/tip147.pdf" target="_blank">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>BYV32E</strong> Rectifier diodes ultrafast, rugged
+(<a href="https://www.mouser.com/catalog/specsheets/BYV32E_SERIES_3.pdf" target="_blank">datasheet</a>)</p>
+  </li>
+  <li>
     <p><strong>LM317L</strong> 3-Terminal Adjustable Regulator
-(<a href="https://www.ti.com/lit/ds/symlink/lm317l.pdf?ts=1596796656076&amp;ref_url=https%253A%252F%252Fwww.google.com%252F">datasheet</a>)</p>
+(<a href="https://www.ti.com/lit/ds/symlink/lm317l.pdf?ts=1596796656076&amp;ref_url=https%253A%252F%252Fwww.google.com%252F" target="_blank">datasheet</a>)</p>
   </li>
   <li>
     <p><strong>LM337LM</strong> 3-Terminal Adjustable Regulator
-(<a href="https://www.ti.com/lit/ds/symlink/lm337l.pdf?ts=1596795119863&amp;ref_url=https%253A%252F%252Fwww.google.com%252F">datasheet</a>)</p>
+(<a href="https://www.ti.com/lit/ds/symlink/lm337l.pdf?ts=1596795119863&amp;ref_url=https%253A%252F%252Fwww.google.com%252F" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>LM358M</strong> Low Power Dual Operational Amplifier (<a href="https://www.ti.com/lit/ds/symlink/lm358-n.pdf?ts=1599502410728&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLM358M%252FNOPB">datasheet</a>)</p>
+    <p><strong>TL431</strong> Automotive adjustable voltage reference
+(<a href="https://www.st.com/resource/en/datasheet/tl431.pdf" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>LTC1446</strong> Dual 12-Bit Rail-to-Rail Micropower DAC (<a href="https://www.analog.com/media/en/technical-documentation/data-sheets/1446fa.pdf">datasheet</a>)</p>
+    <p><strong>LM358M</strong> Low Power Dual Operational Amplifier (<a href="https://www.ti.com/lit/ds/symlink/lm358-n.pdf?ts=1599502410728&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLM358M%252FNOPB" target="_blank">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>LTC1446</strong> Dual 12-Bit Rail-to-Rail Micropower DAC (<a href="https://www.analog.com/media/en/technical-documentation/data-sheets/1446fa.pdf" target="_blank">datasheet</a>)</p>
   </li>
   <li>
     <p><strong>MCP3202</strong> 2.7V Dual Channel 12-Bit A/D Converter
-with SPI Serial Interface (<a href="https://asset.conrad.com/media10/add/160267/c1/-/en/001083119DS01/datenblatt-1083119-microchip-technology-mcp3202-bisn-datenerfassungs-ic-analog-digital-wandler-adc-extern-soic-8-n.pdf">datasheet</a>)</p>
+with SPI Serial Interface (<a href="https://asset.conrad.com/media10/add/160267/c1/-/en/001083119DS01/datenblatt-1083119-microchip-technology-mcp3202-bisn-datenerfassungs-ic-analog-digital-wandler-adc-extern-soic-8-n.pdf" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>MC33172</strong> Low power dual bipolar operational amplifiers (<a href="https://www.st.com/resource/en/datasheet/mc33172.pdf">datasheet</a>)</p>
+    <p><strong>MC33172</strong> Low power dual bipolar operational amplifiers (<a href="https://www.st.com/resource/en/datasheet/mc33172.pdf" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>KW1-391AGA</strong> Single Digit 7-segment LED Display (<a href="https://www.luckylight.cn/media/component/data-sheet/KW1-391AGA.pdf">datasheet</a>)</p>
+    <p><strong>KW1-391AGA</strong> Single Digit 7-segment LED Display (<a href="https://www.luckylight.cn/media/component/data-sheet/KW1-391AGA.pdf" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>ICM7228</strong> 8-Digit, Microprocessor-Compatible, LED Display Decoder Driver (<a href="https://www.renesas.com/cn/en/www/doc/datasheet/icm7228.pdf">datasheet</a>)</p>
+    <p><strong>ICM7228</strong> 8-Digit, Microprocessor-Compatible, LED Display Decoder Driver (<a href="https://www.renesas.com/cn/en/www/doc/datasheet/icm7228.pdf" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>HCT4094</strong> 8-stage shift-and-store bus register (<a href="https://assets.nexperia.com/documents/data-sheet/74HC_HCT4094.pdf">datasheet</a>)</p>
+    <p><strong>HCT4094</strong> 8-stage shift-and-store bus register (<a href="https://assets.nexperia.com/documents/data-sheet/74HC_HCT4094.pdf" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>HCT164</strong> 8-bit serial-in, parallel-out shift register (<a href="https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf">datasheet</a>)</p>
+    <p><strong>HCT164</strong> 8-bit serial-in, parallel-out shift register (<a href="https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>HCT165</strong> High-Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register (<a href="https://www.ti.com/lit/ds/schs156c/schs156c.pdf?ts=1596879013114&amp;ref_url=https%253A%252F%252Fwww.google.com%252F">datasheet</a>)</p>
+    <p><strong>HCT165</strong> High-Speed CMOS Logic 8-Bit Parallel-In/Serial-Out Shift Register (<a href="https://www.ti.com/lit/ds/schs156c/schs156c.pdf?ts=1596879013114&amp;ref_url=https%253A%252F%252Fwww.google.com%252F" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>TLP2630</strong> Photocoupler (photo-IC output) (<a href="https://toshiba.semicon-storage.com/eu/semiconductor/product/optoelectronics/detail.TLP2630.html">datasheet</a>)</p>
+    <p><strong>TLP2630</strong> Photocoupler (photo-IC output) (<a href="https://toshiba.semicon-storage.com/eu/semiconductor/product/optoelectronics/detail.TLP2630.html" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>FP2 D3009</strong> 5V Signal Relais (<a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=108-98005&amp;DocType=SS&amp;DocLang=EN">datasheet</a>)</p>
+    <p><strong>FP2 D3009</strong> 5V Signal Relais (<a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=108-98005&amp;DocType=SS&amp;DocLang=EN" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>BC846B</strong> (mark: 1BS on SOT23) <a href="https://www.infineon.com/dgdl/Infineon-BC846SERIES_BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a30431441fb5d011449cec9bd0241">datasheet</a>)</p>
+    <p><strong>BC846B</strong> (1BS marking on SOT23) <a href="https://www.infineon.com/dgdl/Infineon-BC846SERIES_BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a30431441fb5d011449cec9bd0241" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>BC859C</strong> (mark: 4GW on SOT23) (<a href="https://assets.nexperia.com/documents/data-sheet/BC859_BC860.pdf">datasheet</a>)</p>
+    <p><strong>BC859C</strong> (4GW marking on SOT23) (<a href="https://assets.nexperia.com/documents/data-sheet/BC859_BC860.pdf" target="_blank">datasheet</a>)</p>
   </li>
 </ul>
 

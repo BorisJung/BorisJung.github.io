@@ -13,7 +13,13 @@ This site serves as a hub for the documentation and versioning of some of the pr
 
 ___
 
-### Change log
+### Change log  
+
+Update 10-09-2020:
+- more identified ICs added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html)) 
+- PCB pics annotation extended, working on schematics ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html))   
+
+
 Update 07-09-2020:
 - Supply to CPU Board B2B-connector pinout added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html))   
 - more identified ICs added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html)) 
