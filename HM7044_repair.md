@@ -46,8 +46,6 @@ After having spent some time with the device, I think it's time for a small summ
 
 The grey arrows symbolize communication via 20-pin board-to-board connectors, the yellow line indicates the connection between supply circuitry on the supply board and the output connectors on the front board.
 
-
-
 ### CPU board
 
 - ASIC: HM7044-2 Ver.: 2.01
@@ -65,6 +63,26 @@ The supply board pcb consists of 4 identical sections representing the 4 output 
 - 4 x 20 Pin connectors (1 for each channel)
 - 4 opto-couplers (CPU->Supply: 3 , Supply->CPU: 1)
 - MCP3202 ADC output signal from supply board to CPU
+
+
+TLP2630 CPU Board -> Supply Board #1 (0V to 5V):
+- DAC CS/LD Signal
+- B2B connector Pin 2
+
+TLP2630 CPU Board -> Supply Board #2 (0V to 5V):
+- ADC CS/SHDN Signal
+- Collector of Darlinton output stage for ADC D-Out
+
+TLP2630 CPU Board -> Supply Board #3 (-5V to 0V)):
+- Base of PNP controlling relay V- (switching Output on/off ?)
+- Base of lower NPN 
+
+TLP2630 Supply Board -> CPU Board:
+- buffered ADC D-Out Signal
+- buffered DAC Vout-B
+
+
+
 
 ### CPU board <-> Front board
 
@@ -113,14 +131,18 @@ ___
 
 
 ### Notes
-___
-
-
-
 
 **Display drivers 7228:**
 - Shutdown Pin (10) shorted to VDD -> all drivers always on
+- ID0-ID3, ID7, MODE same signal for all 4 meter drivers (/ for all channels, voltage and current)
+- ID5 & ID6 tied to GND, ID4 pulled to V+
+- MODE pins shorted
+- separate WRITE signals
 
+
+
+
+___
 
 **Block Diagram**
 - separate Drivers for Current Meter (bottom row LED digits KW1-391AGA) and Voltage Meter (top row LED digits KW1-391AGA)
@@ -136,9 +158,9 @@ ___
 
 - Must be on CPU board, since LED Digits input signal comes from B2B-connector
 
-data input Serial/Parallel conv <-> Pin 17 front board to cpu board connector <-> Pin 2 4094 shift register & Pin 27 of main asic / CPU 
+data input Serial/Parallel conv <-> Pin 17 front board to cpu board connector <-> Pin 2 4094 shift register & Pin 26 of main asic / CPU 
 
--> CPU sends serial signal to both shift register for optocoupler drive, as well as Serial/Parallel conv for driving meter displays
+-> CPU sends Vset/Iset serial signal to both shift register for optocoupler drive, as well as Serial/Parallel conv for driving meter displays
 
 TLP2630 output pins to Pin 16/18 of B2B connector, pulled high via 10k resistors to VCC (of secondary/supply board side), Pin 8 of B2B Connector
 
@@ -151,35 +173,13 @@ Next:
 
 
 ___
-
-- HCT164 Pin 1 (data input A) driven by supply board B2B pin 19 and 20 
-- all supply board channels drive/connected to same HCT164 data input A (the one sitting in the middle, connected to current meter) 
-
-___
 more readable:
 
-Pin 27 of main asic/CPU connected to 
+Pin 26 of main asic/CPU connected to 
 - Pin 2 (data input B) of HCT164D Ser>Par shift register (CPU board, middle)
 AND
 - Pin 17 front board connector 
-
-
-
-Middle HCT164 Ser>Par shift register:
-- DSA input driven by supply board (all channels connected to same input)
-- DSB input driven by main asic/CPU
-- Outputs high only for DSA&DSB
-
-
 ___
-
-Supply Board Connector Pin 19 
-
-- drives TLP2630 optocoupler connected to HCT164 Ser>Par data input DSA
-
-Origin:
-Supply Board Connector Pin 19   <---  Resistor divider  <--- BC846B darlington stage  <--- 61k9  <---  MCP3202 A/D Pin 6 Data Out 
-
 
 MCP3202 A/D Pin 3 Data In CH1  <---  MC33172(#2) Pin 7 Output 2 
 MC33172(#2) Pins 5/6 (inputs 2)  <--- Divider/Filter  <--- MC33172(#1) Pin 1 Output 1  
@@ -285,8 +285,12 @@ ___
 - **BYV32E** Rectifier diodes ultrafast, rugged
 ([datasheet](https://www.mouser.com/catalog/specsheets/BYV32E_SERIES_3.pdf){:target="_blank"})
 
-- **LM317L** 3-Terminal Adjustable Regulator
+- **LM317L** 3-Terminal Adjustable Regulator SOIC
 ([datasheet](https://www.ti.com/lit/ds/symlink/lm317l.pdf?ts=1596796656076&ref_url=https%253A%252F%252Fwww.google.com%252F){:target="_blank"})
+
+- **LM317T** 3-Terminal Adjustable Regulator TO-220
+([datasheet](https://datasheet.octopart.com/LM317T-NOPB-Texas-Instruments-datasheet-7275803.pdf){:target="_blank"})
+
 
 - **LM337LM** 3-Terminal Adjustable Regulator
 ([datasheet](https://www.ti.com/lit/ds/symlink/lm337l.pdf?ts=1596795119863&ref_url=https%253A%252F%252Fwww.google.com%252F){:target="_blank"})
@@ -328,3 +332,5 @@ with SPI Serial Interface ([datasheet](https://asset.conrad.com/media10/add/1602
 - **BC846B** (1BS marking on SOT23) [datasheet](https://www.infineon.com/dgdl/Infineon-BC846SERIES_BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a30431441fb5d011449cec9bd0241){:target="_blank"})
 
 - **BC859C** (4GW marking on SOT23) ([datasheet](https://assets.nexperia.com/documents/data-sheet/BC859_BC860.pdf){:target="_blank"})
+
+- **HIN202** +5V Powered RS-232 Transmitters/Receivers ([datasheet](https://www.renesas.com/in/en/www/doc/datasheet/hin202-06-07-08-11-13.pdf){:target="_blank"})

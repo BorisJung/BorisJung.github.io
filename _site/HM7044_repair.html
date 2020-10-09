@@ -195,6 +195,30 @@
   <li>MCP3202 ADC output signal from supply board to CPU</li>
 </ul>
 
+<p>TLP2630 CPU Board -&gt; Supply Board #1 (0V to 5V):</p>
+<ul>
+  <li>DAC CS/LD Signal</li>
+  <li>B2B connector Pin 2</li>
+</ul>
+
+<p>TLP2630 CPU Board -&gt; Supply Board #2 (0V to 5V):</p>
+<ul>
+  <li>ADC CS/SHDN Signal</li>
+  <li>Collector of Darlinton output stage for ADC D-Out</li>
+</ul>
+
+<p>TLP2630 CPU Board -&gt; Supply Board #3 (-5V to 0V)):</p>
+<ul>
+  <li>Base of PNP controlling relay V- (switching Output on/off ?)</li>
+  <li>Base of lower NPN</li>
+</ul>
+
+<p>TLP2630 Supply Board -&gt; CPU Board:</p>
+<ul>
+  <li>buffered ADC D-Out Signal</li>
+  <li>buffered DAC Vout-B</li>
+</ul>
+
 <h3 id="cpu-board---front-board">CPU board &lt;-&gt; Front board</h3>
 
 <ul>
@@ -238,12 +262,17 @@
 <hr />
 
 <h3 id="notes">Notes</h3>
-<hr />
 
 <p><strong>Display drivers 7228:</strong></p>
 <ul>
   <li>Shutdown Pin (10) shorted to VDD -&gt; all drivers always on</li>
+  <li>ID0-ID3, ID7, MODE same signal for all 4 meter drivers (/ for all channels, voltage and current)</li>
+  <li>ID5 &amp; ID6 tied to GND, ID4 pulled to V+</li>
+  <li>MODE pins shorted</li>
+  <li>separate WRITE signals</li>
 </ul>
+
+<hr />
 
 <p><strong>Block Diagram</strong></p>
 <ul>
@@ -262,9 +291,9 @@
   <li>Must be on CPU board, since LED Digits input signal comes from B2B-connector</li>
 </ul>
 
-<p>data input Serial/Parallel conv &lt;-&gt; Pin 17 front board to cpu board connector &lt;-&gt; Pin 2 4094 shift register &amp; Pin 27 of main asic / CPU</p>
+<p>data input Serial/Parallel conv &lt;-&gt; Pin 17 front board to cpu board connector &lt;-&gt; Pin 2 4094 shift register &amp; Pin 26 of main asic / CPU</p>
 
-<p>-&gt; CPU sends serial signal to both shift register for optocoupler drive, as well as Serial/Parallel conv for driving meter displays</p>
+<p>-&gt; CPU sends Vset/Iset serial signal to both shift register for optocoupler drive, as well as Serial/Parallel conv for driving meter displays</p>
 
 <p>TLP2630 output pins to Pin 16/18 of B2B connector, pulled high via 10k resistors to VCC (of secondary/supply board side), Pin 8 of B2B Connector</p>
 
@@ -277,39 +306,15 @@
 </ul>
 
 <hr />
-
-<ul>
-  <li>HCT164 Pin 1 (data input A) driven by supply board B2B pin 19 and 20</li>
-  <li>all supply board channels drive/connected to same HCT164 data input A (the one sitting in the middle, connected to current meter)</li>
-</ul>
-
-<hr />
 <p>more readable:</p>
 
-<p>Pin 27 of main asic/CPU connected to</p>
+<p>Pin 26 of main asic/CPU connected to</p>
 <ul>
   <li>Pin 2 (data input B) of HCT164D Ser&gt;Par shift register (CPU board, middle)
 AND</li>
-  <li>Pin 17 front board connector</li>
+  <li>Pin 17 front board connector 
+___</li>
 </ul>
-
-<p>Middle HCT164 Ser&gt;Par shift register:</p>
-<ul>
-  <li>DSA input driven by supply board (all channels connected to same input)</li>
-  <li>DSB input driven by main asic/CPU</li>
-  <li>Outputs high only for DSA&amp;DSB</li>
-</ul>
-
-<hr />
-
-<p>Supply Board Connector Pin 19</p>
-
-<ul>
-  <li>drives TLP2630 optocoupler connected to HCT164 Ser&gt;Par data input DSA</li>
-</ul>
-
-<p>Origin:
-Supply Board Connector Pin 19   &lt;—  Resistor divider  &lt;— BC846B darlington stage  &lt;— 61k9  &lt;—  MCP3202 A/D Pin 6 Data Out</p>
 
 <p>MCP3202 A/D Pin 3 Data In CH1  &lt;—  MC33172(#2) Pin 7 Output 2 
 MC33172(#2) Pins 5/6 (inputs 2)  &lt;— Divider/Filter  &lt;— MC33172(#1) Pin 1 Output 1<br />
@@ -409,8 +414,12 @@ MC33172(#1) Pin 3 (input)  &lt;—  Sense Connector</p>
 (<a href="https://www.mouser.com/catalog/specsheets/BYV32E_SERIES_3.pdf" target="_blank">datasheet</a>)</p>
   </li>
   <li>
-    <p><strong>LM317L</strong> 3-Terminal Adjustable Regulator
+    <p><strong>LM317L</strong> 3-Terminal Adjustable Regulator SOIC
 (<a href="https://www.ti.com/lit/ds/symlink/lm317l.pdf?ts=1596796656076&amp;ref_url=https%253A%252F%252Fwww.google.com%252F" target="_blank">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>LM317T</strong> 3-Terminal Adjustable Regulator TO-220
+(<a href="https://datasheet.octopart.com/LM317T-NOPB-Texas-Instruments-datasheet-7275803.pdf" target="_blank">datasheet</a>)</p>
   </li>
   <li>
     <p><strong>LM337LM</strong> 3-Terminal Adjustable Regulator
@@ -459,6 +468,9 @@ with SPI Serial Interface (<a href="https://asset.conrad.com/media10/add/160267/
   </li>
   <li>
     <p><strong>BC859C</strong> (4GW marking on SOT23) (<a href="https://assets.nexperia.com/documents/data-sheet/BC859_BC860.pdf" target="_blank">datasheet</a>)</p>
+  </li>
+  <li>
+    <p><strong>HIN202</strong> +5V Powered RS-232 Transmitters/Receivers (<a href="https://www.renesas.com/in/en/www/doc/datasheet/hin202-06-07-08-11-13.pdf" target="_blank">datasheet</a>)</p>
   </li>
 </ul>
 
