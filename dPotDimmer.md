@@ -182,7 +182,7 @@ ___
 
 Next we need to make the python class accessible via HTTP through a flask server. 
 
-First we create a flask object as well as an object using the just defined *dPot*-class. The next code block defines the [dispatcher](https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask.route){:target="_blank"} and action method, routing the commands to the corresponding python methods of the *dPot*-object. A minimal error checking has been added with the *else* clause.
+First we create a flask object as well as an object using the just defined *dPot*-class. The next code block defines the [dispatcher](https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask.route){:target="_blank"} and action method, routing the HTTP requests to the corresponding python methods of the *dPot*-object. A minimal error checking has been added with the *else* clause.
 
 ```
 # flask app
