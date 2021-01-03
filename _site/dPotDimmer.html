@@ -331,6 +331,7 @@ class dPot:
 
     def on(self):
         print('Turned on!')
+        self.writeVal(self.last)
         self.ison = 1
         return jsonify(1)
 
@@ -342,15 +343,14 @@ class dPot:
 
     def setVal(self, Val):
         print('Value set to ',Val)
-        wVal = int(float(Val)*2.55) # answer value is in percent, dPot has 256 steps
         self.last = Val
         self.ison = 1
-        self.writeVal(wVal)
+        self.writeVal(self.last)
         return jsonify(self.last)
 
     def writeVal(self, Val):
-        self.spi.writebytes(bytearray([Val]))
-        print('Value written:', Val, type(Val))
+        self.spi.writebytes(bytearray([int(float(Val)*2.55)]))
+        print('Value written:', Val)
 
     def is_on(self):
         return jsonify(self.ison)
