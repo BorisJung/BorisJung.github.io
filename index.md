@@ -8,8 +8,7 @@ title: Welcome
 
 # Welcome!
 
-This site serves as a hub for the documentation and versioning of some of the projects I am currently or have been pursuing. Feel free to browse!
-
+This site documents some of the projects I am currently or have been pursuing. Feel free to browse!
 
 ___
 

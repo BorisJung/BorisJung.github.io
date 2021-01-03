@@ -70,6 +70,7 @@ blockquote {
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color:#333;
+  font-size:8pt;
 }
 
 pre {
@@ -380,7 +381,9 @@ figure {
   text-align: center;
   border: 0px blue solid;
   overflow:hidden;
-  margin: 1em 1em 1em 0em;
+  /* margin: 1em 1em 1em 0em; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figure.centeredFigure {
@@ -401,7 +404,7 @@ figure.centeredFigure {
     width: 85%;
     margin: 0 auto;
     display: block;
-    border: 3px silver solid;
+    border: 3px green solid;
 }
 
 figure img {
