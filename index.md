@@ -14,6 +14,9 @@ ___
 
 ### Change log  
 
+Update 03-01-2021:
+- added ["Apple Home Enable Horticulture Lighting"](/dPotdimmer.html) Project 
+
 Update 10-09-2020:
 - more identified ICs added ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html)) 
 - PCB pics annotation extended, working on schematics ([HM7044 repair](https://borisjung.github.io/HM7044_repair.html))   
