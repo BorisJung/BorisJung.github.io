@@ -3,7 +3,7 @@ docs:
 
 - title: Welcome
   url: /
-  
+<---!  
 - title: Apple Home Enabled Horticulture Lighting
   url: /dPotDimmer.html
   
@@ -42,3 +42,4 @@ docs:
 
 - title: Homebridge Pi
   url: /homePi.html
+--->
