@@ -3,8 +3,9 @@ docs:
 
 - title: Welcome
   url: /
-<---!  
-- title: Apple Home Enabled Horticulture Lighting
+
+
+//- title: Apple Home Enabled Horticulture Lighting
   url: /dPotDimmer.html
   
 - title: Digital Potentiometer Evaluation
