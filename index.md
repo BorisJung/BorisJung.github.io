@@ -5,7 +5,7 @@ title: Welcome
  ```
  (site under construction)
 ```
-
+<!---
 # Welcome!
 
 This site documents some of the projects I am currently or have been pursuing. Feel free to browse!
@@ -50,3 +50,5 @@ Update 21-07-2020:
 Update 12-07-2020:
 - [Digital Potentiometer Evaluation](https://borisjung.github.io/digiPots.html) page added
 - Image class with figure captions added to jekyll-theme-minimal.scss
+
+--->
